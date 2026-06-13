@@ -39,6 +39,6 @@ Federation botanical assets may include an optional `implementationProductRef` (
 
 ## IP already in legal docs
 
-Landscape Archive’s Software & Schema IP Schedule covers **implementation schema** (Revit parameter maps, procedural logic, internal pipelines). The **federation public schema** is explicitly carved out as open standard maintained on the federation domain/repo.
+The Landscape Archive group’s Software & Schema IP Schedule covers **implementation schema** (Revit parameter maps, procedural logic, internal pipelines), which is owned within the commercial group. The **federation public schema** is explicitly carved out as an open standard maintained on the federation domain/repo and is **not** part of the commercial group’s IP.
 
-When the federation council incorporates, assign schema copyright to the federation entity; grant Landscape Archive a perpetual licence to implement and extend mappings in product code.
+When the federation council incorporates, assign federation schema copyright to the federation entity; grant the Landscape Archive group a perpetual licence to implement and extend mappings in product code.
