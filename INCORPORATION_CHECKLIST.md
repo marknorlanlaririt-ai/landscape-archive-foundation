@@ -53,7 +53,7 @@ Two paths:
 - **Easiest:** adopt your state's **model rules** (a ready-made constitution the regulator publishes). Fastest approval.
 - **Custom:** lodge your own rules. Our [CHARTER.md](./CHARTER.md) can be adapted, but model rules are simpler to get approved — you can attach the Charter's governance intent (power split, council, arbitrator, cultural protocol veto) as the association's **objects/by-laws**.
 
-Recommended: adopt **model rules** + record the Charter as the Federation's governance schedule/by-laws.
+Recommended: adopt **model rules** + record the Charter as the Federation's governance schedule/by-laws. Ready-to-attach text: [ASSOCIATION_RULES.md](./ASSOCIATION_RULES.md).
 
 ## Step 5 — Hold the inaugural meeting
 
@@ -63,7 +63,7 @@ Founding members meet and resolve to:
 - elect a **committee** and a **public officer** (must reside in the home state);
 - approve the objects (purpose) — reuse §1.2 of the Charter.
 
-Keep minutes — the regulator may want them.
+Keep minutes — the regulator may want them. Template: [INAUGURAL_MEETING_MINUTES.md](./INAUGURAL_MEETING_MINUTES.md).
 
 ## Step 6 — Lodge the application + fee
 

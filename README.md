@@ -86,6 +86,8 @@ Landscape Archive application code, connectors, and canonical species datasets r
 - [CHARTER.md](./CHARTER.md) — founding charter: power split, council, voting, arbitration (draft)
 - [LEGAL_STRUCTURE_OPTIONS.md](./LEGAL_STRUCTURE_OPTIONS.md) — how to launch without forming a company
 - [INCORPORATION_CHECKLIST.md](./INCORPORATION_CHECKLIST.md) — forming the incorporated association (chosen path)
+- [ASSOCIATION_RULES.md](./ASSOCIATION_RULES.md) — objects + governance rules to attach to the application
+- [INAUGURAL_MEETING_MINUTES.md](./INAUGURAL_MEETING_MINUTES.md) — founding meeting minutes template
 - [FOUNDING_INVITATION.md](./FOUNDING_INVITATION.md) — invitation for founding members
 - [COMMERCIAL_SEPARATION.md](./COMMERCIAL_SEPARATION.md) — federation vs Landscape Archive
 - [GOVERNANCE.md](./GOVERNANCE.md) — draft council model
