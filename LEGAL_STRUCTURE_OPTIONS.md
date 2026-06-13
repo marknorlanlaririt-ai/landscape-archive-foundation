@@ -4,6 +4,8 @@
 
 You've said you'd prefer **not to create another company**. Good news: a federation does **not** need to be a company to function. Below are the realistic paths, lightest first, with a clear recommendation.
 
+> **Decision (2026-06-13):** founders are proceeding with **Option D — incorporated association** (a state-registered non-profit, **not** a company), because the chosen domain `landscapefederation.org.au` requires a non-profit entity for `.org.au` eligibility. Step-by-step: [INCORPORATION_CHECKLIST.md](./INCORPORATION_CHECKLIST.md).
+
 ---
 
 ## The options at a glance

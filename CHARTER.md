@@ -170,7 +170,9 @@ Where a matter is not expressly listed in §3.1, it is a member-reserved power. 
 
 ## 11. Legal status and form
 
-### 11.1 Starting form — unincorporated working group (no new company)
+> **Decision (2026-06-13):** the founders are proceeding to establish the Federation as an **incorporated association** (a state-registered non-profit — *not* a company) so it can hold `landscapefederation.org.au` and act as a neutral legal entity. Until incorporation completes, the Federation operates as the unincorporated working group described in §11.1. See [INCORPORATION_CHECKLIST.md](./INCORPORATION_CHECKLIST.md).
+
+### 11.1 Interim form — unincorporated working group (until incorporation completes)
 
 The Federation **starts as an unincorporated open-standards working group**. It is **not** a company and is not separately registered. This Charter operates as a **binding multi-party agreement** between the founding members. The schema, repository, validator, and portal require no legal entity to exist or be used (open licences under §8 do that).
 
