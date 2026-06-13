@@ -84,6 +84,8 @@ Landscape Archive application code, connectors, and canonical species datasets r
 
 - [HOW_IT_WORKS.md](./HOW_IT_WORKS.md) — plain-language guide
 - [CHARTER.md](./CHARTER.md) — founding charter: power split, council, voting, arbitration (draft)
+- [LEGAL_STRUCTURE_OPTIONS.md](./LEGAL_STRUCTURE_OPTIONS.md) — how to launch without forming a company
+- [FOUNDING_INVITATION.md](./FOUNDING_INVITATION.md) — invitation for founding members
 - [COMMERCIAL_SEPARATION.md](./COMMERCIAL_SEPARATION.md) — federation vs Landscape Archive
 - [GOVERNANCE.md](./GOVERNANCE.md) — draft council model
 - [DOMAIN_SETUP.md](./DOMAIN_SETUP.md) — DNS and Cloudflare Pages for `schema.landscapefederation.org.au`

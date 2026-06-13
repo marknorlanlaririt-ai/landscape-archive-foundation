@@ -10,7 +10,7 @@
 
 ## 1. Name and purpose
 
-1.1 The body is the **Australian Landscape Architecture Federation** ("the Federation"), a not-for-profit alliance of independent members.
+1.1 The body is the **Australian Landscape Architecture Federation** ("the Federation"), a not-for-profit alliance of independent members. It starts as an **unincorporated working group** (no new company); see §11.
 
 1.2 Purpose:
 - maintain an **open, free metadata schema** for Australian landscape architecture;
@@ -168,15 +168,32 @@ Where a matter is not expressly listed in §3.1, it is a member-reserved power. 
 
 ---
 
-## 11. Legal status — what still requires humans
+## 11. Legal status and form
 
-This Charter is a **template**. To make it operative:
+### 11.1 Starting form — unincorporated working group (no new company)
 
-1. **Choose a legal form** (recommended for Australia): an **incorporated association** (simplest, state-based) or a **company limited by guarantee** (national, ASIC-registered, suits multi-state membership).
-2. **Legal review** of this Charter against the chosen form's model rules.
-3. **Founding members execute** the Charter / association rules.
-4. **Register** the entity (state fair-trading body or ASIC) and obtain an ABN.
-5. **Appoint** the founding Council and the independent arbitrator.
-6. **Adopt by-laws** for admissions, meetings, and the badge programme.
+The Federation **starts as an unincorporated open-standards working group**. It is **not** a company and is not separately registered. This Charter operates as a **binding multi-party agreement** between the founding members. The schema, repository, validator, and portal require no legal entity to exist or be used (open licences under §8 do that).
 
-Until steps 1–4 are complete, the Federation operates as an informal working group and this document has no legal force.
+This is the lightest option and is preferred while the Federation has no employees and no assets beyond its public repository. See [LEGAL_STRUCTURE_OPTIONS.md](./LEGAL_STRUCTURE_OPTIONS.md).
+
+### 11.2 Handling money early (if needed)
+
+If funds must move before incorporation (e.g. shared domain cost, a small grant), the Federation will be **auspiced by a neutral existing not-for-profit** (e.g. a professional body or university) — **not** by a commercial implementation partner — to preserve neutrality.
+
+### 11.3 Incorporation trigger — incorporated association (still not a company)
+
+The Federation will incorporate **as an incorporated association** (a state-registered entity, **not** an ASIC company) once any of the following occurs:
+- it needs to hold assets or sign contracts in its own name;
+- it wishes to employ anyone;
+- it takes grants above a threshold set by Council;
+- officer/member liability exposure becomes material.
+
+A company limited by guarantee is **not** adopted unless the Federation later reaches national scale with many funded members and Council resolves to do so by the §5.2 super-majority.
+
+### 11.4 To make this operative
+
+1. Founding members review and **execute** this Charter (a multi-party agreement — short legal review, not a company formation).
+2. **Appoint** the founding Council and the independent arbitrator.
+3. **Adopt by-laws** for admissions, meetings, and the badge programme.
+
+Until members sign, the Federation is an informal group and this document has no legal force.
