@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.landscapefederation.org.au/context/federation-v1.jsonld",
+  "federationSchemaVersion": "1.0.0",
+  "project": {
+    "federationSchemaVersion": "1.0.0",
+    "projectId": "urn:federation:node:melbourne-practice:project:2026-courtyard",
+    "title": "CBD courtyard native planting",
+    "nodeId": "urn:federation:node:melbourne-practice",
+    "nodeType": "private-practice",
+    "jurisdiction": {
+      "country": "AU",
+      "stateOrTerritory": "VIC",
+      "lga": "Melbourne",
+      "locality": "Melbourne"
+    },
+    "projectPhase": "documentation",
+    "federationApproved": false,
+    "updatedAt": "2026-05-29T00:00:00Z"
+  },
+  "botanicalAssets": [
+    {
+      "assetId": "plant-101",
+      "taxonID": "5284716",
+      "scientificName": "Acacia cognata Domin",
+      "vernacularName": "Cousin Itt",
+      "family": "Fabaceae",
+      "genus": "Acacia",
+      "nativeStatus": "Native",
+      "growthForm": "Broadleaf shrub",
+      "matureHeight_m": 1.0,
+      "matureSpread_m": 2.5,
+      "waterRequirementClass": "moderate",
+      "quantity": 18,
+      "unit": "each",
+      "implementationProductRef": "la:shop:acacia-cognata-family"
+    }
+  ],
+  "siteContext": {
+    "soilProfile": {
+      "order": "Urban imported",
+      "phBand": "6.0-7.0",
+      "source": "site investigation summary"
+    },
+    "climateBand": {
+      "koppenClass": "Cfb",
+      "rainfallMmBand": "600-700"
+    },
+    "exposure": "urban-canyon"
+  },
+  "sustainability": {
+    "climatePositiveClaim": false,
+    "nativePlantingPercent": 100,
+    "waterSensitiveDesign": true
+  },
+  "culturalContext": {
+    "sensitivityClass": "restricted",
+    "culturalEngagementLevel": "collaborative",
+    "protocolAuthorityRef": "urn:federation:restricted:node:melbourne-practice:cultural-2026-courtyard",
+    "redactionNotice": "Detailed cultural mapping held by publishing node; not indexed in public federation registry."
+  }
+}

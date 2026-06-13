@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validate a bundle — Landscape Architecture Federation</title>
+    <link rel="stylesheet" href="/portal/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="fed-page">
+      <header class="fed-header">
+        <p class="fed-eyebrow">Federation tools · v1.0.0</p>
+        <h1>Validate a project bundle</h1>
+        <p class="fed-lead">
+          Paste a federation project bundle (JSON) below and check it against the v1 structural rules.
+          This runs entirely in your browser — nothing is uploaded.
+        </p>
+        <div class="fed-cta-row">
+          <a class="fed-btn" href="/">← Back to schema home</a>
+          <button class="fed-btn" id="fed-load-example" type="button">Load example</button>
+        </div>
+      </header>
+
+      <section class="fed-section">
+        <h2>Bundle JSON</h2>
+        <textarea id="fed-input" class="fed-textarea" spellcheck="false" placeholder='{ "@context": "...", "federationSchemaVersion": "1.0.0", "project": { ... } }'></textarea>
+        <div class="fed-cta-row" style="margin-top: 1rem;">
+          <button class="fed-btn fed-btn--primary" id="fed-validate" type="button">Validate</button>
+        </div>
+      </section>
+
+      <section class="fed-section">
+        <h2>Result</h2>
+        <div id="fed-result" class="fed-result">Run a validation to see results.</div>
+      </section>
+
+      <footer class="fed-footer">
+        <p>Structural check only (mirrors the federation reference validator). Full JSON Schema validation can be run from the repo with a JSON Schema tool.</p>
+      </footer>
+    </div>
+    <script src="/portal/validate.js" type="module"></script>
+  </body>
+</html>

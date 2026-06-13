@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.landscapefederation.org.au/schema/project/v1.schema.json",
+  "title": "Federation Project",
+  "description": "Landscape architecture project record for the Australian Landscape Architecture Federation open metadata standard.",
+  "type": "object",
+  "required": ["federationSchemaVersion", "projectId", "title", "nodeId", "jurisdiction"],
+  "properties": {
+    "federationSchemaVersion": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "projectId": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable URI or UUID for this project within the publishing node."
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "nodeId": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Publishing federation node (practice, university, council, etc.)."
+    },
+    "nodeType": {
+      "type": "string",
+      "enum": ["private-practice", "university", "council", "environmental-body", "research", "other"]
+    },
+    "jurisdiction": {
+      "type": "object",
+      "required": ["country", "stateOrTerritory"],
+      "properties": {
+        "country": { "type": "string", "const": "AU" },
+        "stateOrTerritory": {
+          "type": "string",
+          "enum": ["ACT", "NSW", "NT", "QLD", "SA", "TAS", "VIC", "WA"]
+        },
+        "lga": { "type": "string" },
+        "locality": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "extent": {
+      "type": "object",
+      "description": "WGS84 project bounds.",
+      "properties": {
+        "type": { "type": "string", "const": "Polygon" },
+        "coordinates": {
+          "type": "array",
+          "description": "GeoJSON polygon coordinates (EPSG:4326)."
+        }
+      }
+    },
+    "projectPhase": {
+      "type": "string",
+      "enum": ["concept", "design-development", "documentation", "construction", "post-occupancy"]
+    },
+    "federationApproved": {
+      "type": "boolean",
+      "description": "True when the bundle validates against federation schema v1 and badge criteria."
+    },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": true
+}

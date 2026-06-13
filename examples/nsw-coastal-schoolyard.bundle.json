@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.landscapefederation.org.au/context/federation-v1.jsonld",
+  "federationSchemaVersion": "1.0.0",
+  "project": {
+    "federationSchemaVersion": "1.0.0",
+    "projectId": "urn:federation:node:unsw-la-studio:project:2026-coastal-playground",
+    "title": "Coastal playground renewal",
+    "nodeId": "urn:federation:node:unsw-la-studio",
+    "nodeType": "university",
+    "jurisdiction": {
+      "country": "AU",
+      "stateOrTerritory": "NSW",
+      "lga": "Randwick",
+      "locality": "Kensington"
+    },
+    "projectPhase": "design-development",
+    "federationApproved": true,
+    "updatedAt": "2026-05-29T00:00:00Z"
+  },
+  "botanicalAssets": [
+    {
+      "assetId": "plant-001",
+      "taxonID": "2981159",
+      "scientificName": "Acacia paradoxa DC.",
+      "acceptedScientificName": "Acacia paradoxa DC.",
+      "vernacularName": "Hedge wattle",
+      "family": "Fabaceae",
+      "genus": "Acacia",
+      "nativeStatus": "Native",
+      "growthForm": "Broadleaf shrub",
+      "matureHeight_m": 2.2,
+      "matureSpread_m": 2.0,
+      "waterRequirementClass": "low",
+      "fireResponse": "epicormic",
+      "quantity": 24,
+      "unit": "each"
+    },
+    {
+      "assetId": "plant-002",
+      "taxonID": "5284947",
+      "scientificName": "Banksia integrifolia L.f.",
+      "vernacularName": "Coast banksia",
+      "family": "Proteaceae",
+      "genus": "Banksia",
+      "nativeStatus": "Native",
+      "growthForm": "Broadleaf tree (single stem)",
+      "matureHeight_m": 8,
+      "matureSpread_m": 5,
+      "waterRequirementClass": "low",
+      "fireResponse": "serotinous",
+      "quantity": 6,
+      "unit": "each",
+      "implementationProductRef": "la:asset:coastal-banksia-v1"
+    }
+  ],
+  "siteContext": {
+    "soilProfile": {
+      "order": "Kurosol",
+      "clayPercentBand": "15-25%",
+      "phBand": "5.5-6.5",
+      "source": "SLGA-derived band"
+    },
+    "climateBand": {
+      "koppenClass": "Cfa",
+      "rainfallMmBand": "1000-1200",
+      "source": "SILO-derived band"
+    },
+    "exposure": "coastal",
+    "microclimateNotes": "Salt-laden southerly exposure; dune-edge planting zone."
+  },
+  "sustainability": {
+    "climatePositiveClaim": true,
+    "nativePlantingPercent": 92,
+    "waterSensitiveDesign": true,
+    "evidence": [
+      {
+        "label": "Studio carbon narrative",
+        "uri": "https://example.edu.au/studio/2026/coastal-playground/carbon",
+        "method": "practice-internal"
+      }
+    ],
+    "disclosureStandard": "AASB S2 aligned narrative (draft)"
+  },
+  "culturalContext": {
+    "sensitivityClass": "open",
+    "culturalEngagementLevel": "consulted",
+    "connectionToCountrySummary": "Plant palette prioritises local coastal species; engagement with local knowledge holders documented in studio records."
+  }
+}

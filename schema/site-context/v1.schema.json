@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.landscapefederation.org.au/schema/site-context/v1.schema.json",
+  "title": "Federation Site Context",
+  "description": "Australian site environmental context bands (not raw raster payloads).",
+  "type": "object",
+  "properties": {
+    "soilProfile": {
+      "type": "object",
+      "properties": {
+        "order": { "type": "string" },
+        "clayPercentBand": { "type": "string" },
+        "sandPercentBand": { "type": "string" },
+        "phBand": { "type": "string" },
+        "organicCarbonBand": { "type": "string" },
+        "source": { "type": "string" }
+      }
+    },
+    "climateBand": {
+      "type": "object",
+      "properties": {
+        "koppenClass": { "type": "string" },
+        "rainfallMmBand": { "type": "string" },
+        "temperatureBand": { "type": "string" },
+        "source": { "type": "string" }
+      }
+    },
+    "topography": {
+      "type": "object",
+      "properties": {
+        "slopeClass": {
+          "type": "string",
+          "enum": ["flat", "gentle", "moderate", "steep", "unknown"]
+        },
+        "elevation_m": { "type": "number" }
+      }
+    },
+    "exposure": {
+      "type": "string",
+      "enum": ["coastal", "coastal-inland", "inland", "alpine", "urban-canyon", "unknown"]
+    },
+    "microclimateNotes": { "type": "string" }
+  },
+  "additionalProperties": true
+}

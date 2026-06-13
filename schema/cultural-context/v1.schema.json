@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.landscapefederation.org.au/schema/cultural-context/v1.schema.json",
+  "title": "Federation Cultural Context",
+  "description": "Connection to Country metadata. Restricted fields must not be published in open federation registries.",
+  "type": "object",
+  "required": ["sensitivityClass"],
+  "properties": {
+    "sensitivityClass": {
+      "type": "string",
+      "enum": ["open", "restricted", "not-for-publication"]
+    },
+    "culturalEngagementLevel": {
+      "type": "string",
+      "enum": ["none", "acknowledged", "consulted", "collaborative", "co-designed"]
+    },
+    "protocolAuthorityRef": {
+      "type": "string",
+      "description": "URI or contact reference for Traditional Owner protocol authority when engagement is collaborative or co-designed."
+    },
+    "connectionToCountrySummary": {
+      "type": "string",
+      "description": "Public-safe summary only when sensitivityClass is open."
+    },
+    "restrictedPayloadRef": {
+      "type": "string",
+      "description": "Pointer to node-held restricted record when sensitivityClass is restricted."
+    },
+    "redactionNotice": { "type": "string" }
+  },
+  "additionalProperties": false
+}

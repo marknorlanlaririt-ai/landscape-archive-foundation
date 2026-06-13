@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.landscapefederation.org.au/schema/sustainability/v1.schema.json",
+  "title": "Federation Sustainability",
+  "description": "Climate-positive design disclosure fields with evidence links.",
+  "type": "object",
+  "properties": {
+    "climatePositiveClaim": { "type": "boolean" },
+    "carbonSequestration_kgCO2e_perYear": { "type": "number" },
+    "embodiedCarbon_kgCO2e": { "type": "number" },
+    "waterSensitiveDesign": { "type": "boolean" },
+    "nativePlantingPercent": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "uri"],
+        "properties": {
+          "label": { "type": "string" },
+          "uri": { "type": "string", "format": "uri" },
+          "method": { "type": "string" }
+        }
+      }
+    },
+    "disclosureStandard": {
+      "type": "string",
+      "description": "e.g. AASB S2 aligned narrative, practice internal method."
+    }
+  },
+  "additionalProperties": true
+}

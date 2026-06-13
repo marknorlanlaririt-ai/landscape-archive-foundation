@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Australian Landscape Architecture Federation — Open Schema</title>
+    <link rel="stylesheet" href="/portal/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="fed-page">
+      <header class="fed-header">
+        <p class="fed-eyebrow">Open metadata standard · v1.0.0 draft</p>
+        <h1>Australian Landscape Architecture Federation</h1>
+        <p class="fed-lead">
+          A decentralised digital language for Australian landscape projects — plants, site context,
+          sustainability, and Connection to Country — free for every node in the community.
+        </p>
+        <div class="fed-cta-row">
+          <a class="fed-btn fed-btn--primary" href="/validate.html">Validate a bundle</a>
+          <a class="fed-btn" href="/schema/manifest.json">Schema manifest</a>
+          <a class="fed-btn" href="/examples/nsw-coastal-schoolyard.bundle.json">Example bundle</a>
+          <a class="fed-btn" href="/crosswalk/landscape-archive-revit-v1.md">LA crosswalk</a>
+        </div>
+      </header>
+
+      <section class="fed-section">
+        <h2>How it works</h2>
+        <ol class="fed-steps">
+          <li><strong>Independent nodes</strong> (practices, universities, councils) keep full control of operations.</li>
+          <li><strong>Federation schema</strong> provides shared JSON fields any BIM, CAD, or GIS tool can read.</li>
+          <li><strong>Validators</strong> check exports; qualifying projects earn a Federation Approved badge.</li>
+          <li><strong>Commercial tools</strong> (e.g. The Landscape Archive) implement the standard and may sell BIM assets on top.</li>
+        </ol>
+      </section>
+
+      <section class="fed-section">
+        <h2>Schema modules</h2>
+        <ul id="fed-modules" class="fed-modules"></ul>
+      </section>
+
+      <section class="fed-section fed-section--grid">
+        <article class="fed-card">
+          <h3>Selling plants &amp; families</h3>
+          <p>
+            The federation schema is <em>open and free</em>. Landscape Archive and other vendors
+            <strong>can still sell</strong> Revit families, shop packs, and Library subscriptions —
+            commerce sits in the implementation layer, not in the public vocabulary.
+          </p>
+        </article>
+        <article class="fed-card">
+          <h3>Separate domain</h3>
+          <p>
+            This portal is intended for <code>schema.landscapefederation.org.au</code>, independent of
+            <code>landscapearchive.com.au</code>, so the community standard stays neutral while products evolve commercially.
+          </p>
+        </article>
+      </section>
+
+      <section class="fed-section">
+        <h2>Downloads</h2>
+        <ul class="fed-links">
+          <li><a href="/schema/project/v1.schema.json">Project v1</a></li>
+          <li><a href="/schema/botanical-asset/v1.schema.json">Botanical asset v1</a></li>
+          <li><a href="/schema/site-context/v1.schema.json">Site context v1</a></li>
+          <li><a href="/schema/sustainability/v1.schema.json">Sustainability v1</a></li>
+          <li><a href="/schema/cultural-context/v1.schema.json">Cultural context v1</a></li>
+          <li><a href="/schema/bundle/v1.schema.json">Project bundle v1</a></li>
+          <li><a href="/context/federation-v1.jsonld">JSON-LD context</a></li>
+        </ul>
+      </section>
+
+      <footer class="fed-footer">
+        <p>Schema licence: Apache-2.0 · Documentation: CC BY 4.0</p>
+        <p>The Landscape Archive is a founding implementation partner — not the federation itself.</p>
+      </footer>
+    </div>
+    <script src="/portal/app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+{
+  "federationId": "australian-landscape-architecture-federation",
+  "schemaVersion": "1.0.0",
+  "published": "2026-05-29",
+  "license": {
+    "schemaFiles": "Apache-2.0",
+    "documentation": "CC-BY-4.0"
+  },
+  "canonicalBase": "https://schema.landscapefederation.org.au",
+  "jsonLdContext": "/context/federation-v1.jsonld",
+  "modules": [
+    {
+      "id": "project",
+      "version": "1",
+      "path": "/schema/project/v1.schema.json",
+      "label": "Project",
+      "description": "Landscape project identity, node ownership, and geospatial extent."
+    },
+    {
+      "id": "botanical-asset",
+      "version": "1",
+      "path": "/schema/botanical-asset/v1.schema.json",
+      "label": "Botanical asset",
+      "description": "Indigenous flora and planting assets with trait and performance metadata."
+    },
+    {
+      "id": "site-context",
+      "version": "1",
+      "path": "/schema/site-context/v1.schema.json",
+      "label": "Site context",
+      "description": "Soil, climate band, topography, and exposure context for Australian sites."
+    },
+    {
+      "id": "sustainability",
+      "version": "1",
+      "path": "/schema/sustainability/v1.schema.json",
+      "label": "Sustainability",
+      "description": "Climate-positive design metrics and evidence-linked disclosures."
+    },
+    {
+      "id": "cultural-context",
+      "version": "1",
+      "path": "/schema/cultural-context/v1.schema.json",
+      "label": "Cultural context",
+      "description": "Connection to Country metadata with public and restricted sensitivity classes."
+    },
+    {
+      "id": "bundle",
+      "version": "1",
+      "path": "/schema/bundle/v1.schema.json",
+      "label": "Project bundle",
+      "description": "Container for a federation-valid project export (all modules)."
+    }
+  ],
+  "implementations": [
+    {
+      "name": "The Landscape Archive",
+      "role": "founding-implementation-partner",
+      "crosswalk": "/crosswalk/landscape-archive-revit-v1.md",
+      "commercialUrl": "https://landscapearchive.com.au"
+    }
+  ]
+}

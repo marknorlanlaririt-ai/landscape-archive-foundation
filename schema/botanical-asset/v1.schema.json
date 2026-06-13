@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.landscapefederation.org.au/schema/botanical-asset/v1.schema.json",
+  "title": "Federation Botanical Asset",
+  "description": "Plant or planting asset metadata for Australian landscape projects.",
+  "type": "object",
+  "required": ["assetId", "scientificName"],
+  "properties": {
+    "assetId": { "type": "string", "minLength": 1 },
+    "taxonID": {
+      "type": "string",
+      "description": "Darwin Core taxon identifier (e.g. GBIF speciesKey)."
+    },
+    "scientificName": { "type": "string", "minLength": 1 },
+    "acceptedScientificName": { "type": "string" },
+    "vernacularName": { "type": "string" },
+    "family": { "type": "string" },
+    "genus": { "type": "string" },
+    "nativeStatus": {
+      "type": "string",
+      "enum": ["Native", "Introduced", "Naturalised", "Unknown"]
+    },
+    "growthForm": {
+      "type": "string",
+      "description": "Federation growth-form label (maps to practice archetypes)."
+    },
+    "matureHeight_m": { "type": "number", "minimum": 0 },
+    "matureSpread_m": { "type": "number", "minimum": 0 },
+    "waterRequirementClass": {
+      "type": "string",
+      "enum": ["very-low", "low", "moderate", "high", "riparian", "unknown"]
+    },
+    "fireResponse": { "type": "string" },
+    "quantity": { "type": "number", "minimum": 0 },
+    "unit": {
+      "type": "string",
+      "enum": ["each", "m2", "lm", "mass", "unknown"]
+    },
+    "sourceRegistry": {
+      "type": "string",
+      "description": "Optional URI to an open or commercial asset registry entry."
+    },
+    "implementationProductRef": {
+      "type": "string",
+      "description": "Optional commercial product SKU or family key (e.g. Landscape Archive assetKey). Does not imply federation endorsement of paid products."
+    }
+  },
+  "additionalProperties": true
+}
