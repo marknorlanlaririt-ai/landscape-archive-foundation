@@ -224,3 +224,20 @@ button.fed-btn {
   cursor: pointer;
   font-family: var(--fed-font);
 }
+
+.fed-callout {
+  background: rgba(61, 205, 168, 0.06);
+  border: 1px solid rgba(61, 205, 168, 0.25);
+  border-radius: 10px;
+  padding: 1.25rem 1.4rem;
+  margin-top: 2rem;
+}
+
+.fed-callout h2 {
+  margin-top: 0;
+}
+
+.fed-callout p {
+  margin: 0;
+  color: var(--fed-muted);
+}
