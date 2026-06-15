@@ -55,7 +55,7 @@ Portal can link to GitHub for issues and RFCs.
 | `app.landscapearchive.com.au` | Private app |
 | `admin.landscapearchive.com.au` | Admin |
 
-Federation schema URLs in JSON `$id` fields use `schema.landscapefederation.org.au` so validators work even when the commercial site is down.
+Schema URLs in JSON `$id` fields use `schema.landscapefederation.org.au` so validators work even when the commercial site is down.
 
 ## 5. Verify after deploy
 

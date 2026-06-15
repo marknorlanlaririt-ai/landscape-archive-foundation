@@ -13,7 +13,7 @@ That shared way is the **metadata schema**: a public dictionary of field names a
 ## What you actually do
 
 1. **Export** a project metadata file (JSON bundle) from your tool or spreadsheet template.
-2. **Validate** it against the federation schema (free CLI or web checker on the schema portal).
+2. **Validate** it against the open standard (free CLI or web checker on the schema portal).
 3. **Optional:** upload open assets to a federation registry (future) or attach a **Federation Approved** badge to your project submission.
 
 You do **not** have to use Landscape Archive to use the schema.

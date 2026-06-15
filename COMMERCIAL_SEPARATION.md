@@ -2,7 +2,7 @@
 
 ## Short answer
 
-**Yes, you can still sell plants, Revit families, Library subscriptions, shop packs, and certification** after launching the federation schema.
+**Yes, you can still sell plants, Revit families, Library subscriptions, shop packs, and certification** after launching the open standard.
 
 The federation does not replace your store. It standardises **how project metadata is described** when files move between independent nodes.
 
@@ -35,10 +35,10 @@ The federation does not replace your store. It standardises **how project metada
 
 ## `implementationProductRef`
 
-Federation botanical assets may include an optional `implementationProductRef` (e.g. `la:shop:acacia-cognata-family`). This links open metadata to a **commercial SKU** without making the federation schema proprietary.
+Botanical assets may include an optional `implementationProductRef` (e.g. `la:shop:acacia-cognata-family`). This links open metadata to a **commercial SKU** without making the open standard proprietary.
 
 ## IP already in legal docs
 
 The Landscape Archive group’s Software & Schema IP Schedule covers **implementation schema** (Revit parameter maps, procedural logic, internal pipelines), which is owned within the commercial group. The **federation public schema** is explicitly carved out as an open standard maintained on the federation domain/repo and is **not** part of the commercial group’s IP.
 
-When the federation council incorporates, assign federation schema copyright to the federation entity; grant the Landscape Archive group a perpetual licence to implement and extend mappings in product code.
+When the governing body incorporates, assign the open standard's copyright to that entity; grant the Landscape Archive group a perpetual licence to implement and extend mappings in product code.

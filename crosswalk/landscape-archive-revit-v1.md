@@ -1,8 +1,8 @@
-# Landscape Archive ↔ Federation schema crosswalk (Revit v1)
+# Landscape Archive ↔ Open landscape data standard crosswalk (Revit v1)
 
 This document maps **The Landscape Archive** Revit `sourceData` sections to the **Australian Landscape Architecture Federation** open metadata modules (v1).
 
-The federation schema is **tool-agnostic and open**. Landscape Archive is a **commercial implementation** that can read/write federation bundles and sell premium assets (Revit families, Library subscriptions, shop packs) on top.
+The open standard is **tool-agnostic and open**. Landscape Archive is a **commercial implementation** that can read/write standard-conformant bundles and sell premium assets (Revit families, Library subscriptions, shop packs) on top.
 
 ## Module mapping
 

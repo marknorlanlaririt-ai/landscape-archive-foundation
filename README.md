@@ -44,11 +44,11 @@ flowchart LR
 
 ## Can Landscape Archive still sell plants?
 
-**Yes.** The federation schema is the **shared language**, not the product store.
+**Yes.** The open standard is the **shared language**, not the product store.
 
 | Layer | What it is | Can you charge? |
 |-------|------------|-----------------|
-| Federation schema | Open JSON fields, validator, badge rules | No — free to use |
+| Open standard | Open JSON fields, validator, badge rules | No — free to use |
 | Federation registry (future) | Member-uploaded open assets tagged with schema | Open-licence assets only |
 | **Landscape Archive** | Library, Revit families, shop packs, subscriptions, certification | **Yes — unchanged** |
 

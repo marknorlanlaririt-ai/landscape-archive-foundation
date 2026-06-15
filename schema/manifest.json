@@ -49,7 +49,7 @@
       "version": "1",
       "path": "/schema/bundle/v1.schema.json",
       "label": "Project bundle",
-      "description": "Container for a federation-valid project export (all modules)."
+      "description": "Container for a validated project export (all modules)."
     }
   ],
   "implementations": [

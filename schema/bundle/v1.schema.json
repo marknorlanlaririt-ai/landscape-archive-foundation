@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://schema.landscapefederation.org.au/schema/bundle/v1.schema.json",
-  "title": "Federation Project Bundle",
+  "title": "Open Landscape Data Standard — Project Bundle",
   "description": "Validated export container for federation-approved project metadata.",
   "type": "object",
   "required": ["@context", "federationSchemaVersion", "project"],

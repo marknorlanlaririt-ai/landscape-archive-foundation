@@ -89,7 +89,7 @@ document.getElementById('fed-validate')?.addEventListener('click', () => {
 
   const errors = validateBundle(parsed)
   if (errors.length === 0) {
-    render('ok', ['PASS — bundle is structurally valid against federation schema v1.'])
+    render('ok', ['PASS — bundle is structurally valid against the open landscape data standard v1.'])
   } else {
     render('error', [`FAIL — ${errors.length} issue(s):`, ...errors.map((e) => `• ${e}`)])
   }
