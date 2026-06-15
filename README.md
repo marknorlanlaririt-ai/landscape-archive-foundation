@@ -1,6 +1,8 @@
-# Australian Landscape Architecture Federation — Open Metadata Schema
+# Open landscape data standard
 
-Public, decentralised metadata standard for Australian landscape architecture practice, academia, councils, and environmental bodies.
+Public, open metadata standard for Australian landscape architecture projects — for use by practices, academia, councils, and environmental bodies.
+
+> **Status:** early-stage, draft v1. This is an open metadata standard initiative — **not an incorporated body, not a registered entity**, and **not affiliated with, endorsed by, or representative of** any professional institute, association, or government body. "Federation" is an internal working name for the proposed governance group only.
 
 **Canonical URL (target):** https://schema.landscapefederation.org.au
 
