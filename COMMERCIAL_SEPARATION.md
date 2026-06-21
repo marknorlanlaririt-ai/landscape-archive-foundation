@@ -1,19 +1,19 @@
-# Commercial separation — federation vs Landscape Archive
+# Commercial separation — Foundation vs Landscape Archive
 
 ## Short answer
 
 **Yes, you can still sell plants, Revit families, Library subscriptions, shop packs, and certification** after launching the open standard.
 
-The federation does not replace your store. It standardises **how project metadata is described** when files move between independent nodes.
+The Foundation does not replace your store. It standardises **how project metadata is described** when files move between independent organisations.
 
 ## Two layers
 
-### Layer A — Federation (open, neutral domain)
+### Layer A — Foundation (open, neutral domain)
 
 - Owns: JSON Schema, JSON-LD context, field dictionary, validator, badge criteria
-- Licence: Apache-2.0 (schema), CC BY 4.0 (docs)
+- Licence: CC BY-NC-ND 4.0 (public standard), Apache-2.0 (reference validator code only)
 - Revenue: none from the schema itself
-- Brand: Australian Landscape Architecture Federation (working name)
+- Brand: Landscape Archive Foundation
 
 ### Layer B — Landscape Archive (commercial)
 
@@ -24,14 +24,14 @@ The federation does not replace your store. It standardises **how project metada
 
 ## What customers buy
 
-| Customer need | Federation (free) | Landscape Archive (paid) |
-|---------------|-------------------|---------------------------|
-| Agree on plant field names | ✓ schema | implements schema |
-| Validate project metadata | ✓ validator | export + validate in product |
+| Customer need | Foundation (free) | Landscape Archive (paid) |
+|---------------|---------------------|---------------------------|
+| Agree on plant field names | ✓ NC reference use | commercial licence + implementation |
+| Validate project metadata | ✓ validator (NC) | export + validate in product |
 | BIM-ready Revit family | — | ✓ shop / Library |
 | 8,889-species trait library | — | ✓ Library subscription |
 | Wattle pack / coastal pack | — | ✓ shop |
-| Federation Approved badge | ✓ rules + validator | optional export assist |
+| Foundation Approved badge | ✓ rules + validator | optional export assist |
 
 ## `implementationProductRef`
 
@@ -39,6 +39,6 @@ Botanical assets may include an optional `implementationProductRef` (e.g. `la:sh
 
 ## IP already in legal docs
 
-The Landscape Archive group’s Software & Schema IP Schedule covers **implementation schema** (Revit parameter maps, procedural logic, internal pipelines), which is owned within the commercial group. The **federation public schema** is explicitly carved out as an open standard maintained on the federation domain/repo and is **not** part of the commercial group’s IP.
+The Landscape Archive group's Software & Schema IP Schedule covers **implementation schema** (Revit parameter maps, procedural logic, internal pipelines), which is owned within the commercial group. The **Foundation public schema** is explicitly carved out as an open standard maintained on the independent schema portal/repo and is **not** part of the commercial group's IP.
 
 When the governing body incorporates, assign the open standard's copyright to that entity; grant the Landscape Archive group a perpetual licence to implement and extend mappings in product code.

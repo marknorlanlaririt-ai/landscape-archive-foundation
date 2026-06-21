@@ -1,10 +1,12 @@
 {
+  "foundationId": "australian-landscape-architecture-foundation",
+  "foundationLabel": "Landscape Archive Foundation",
   "federationId": "australian-landscape-architecture-federation",
   "schemaVersion": "1.0.0",
   "published": "2026-05-29",
   "license": {
-    "schemaFiles": "Apache-2.0",
-    "documentation": "CC-BY-4.0"
+    "publicStandard": "CC-BY-NC-ND-4.0",
+    "documentation": "CC-BY-NC-ND-4.0"
   },
   "canonicalBase": "https://schema.landscapefederation.org.au",
   "jsonLdContext": "/context/federation-v1.jsonld",

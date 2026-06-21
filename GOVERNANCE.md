@@ -1,12 +1,12 @@
-# Draft governance — Australian Landscape Architecture Federation
+# Draft governance — Landscape Archive Foundation
 
 _Status: draft for founding member consultation. Not yet incorporated._
 
 ## Purpose
 
-Shared national advocacy, open metadata standards, and a neutral registry — without absorbing member practices or universities.
+Shared national advocacy, open metadata standards, and neutral stewardship of the public schema — without absorbing member practices or universities.
 
-## Federal council (proposed seats)
+## Council (proposed seats)
 
 | Seat | Sector | Term |
 |------|--------|------|
@@ -18,10 +18,10 @@ Shared national advocacy, open metadata standards, and a neutral registry — wi
 
 Landscape Archive holds **no voting seat** by default; participates as **founding implementation partner**.
 
-## What the federation owns
+## What the Foundation owns
 
 - Public metadata schema (semver releases)
-- Federation Approved badge rules
+- Foundation Approved badge rules
 - National advocacy positions (climate-positive design, open planting data)
 - Optional open asset registry policy
 
@@ -36,7 +36,7 @@ Landscape Archive holds **no voting seat** by default; participates as **foundin
 1. RFC on GitHub (14-day comment period)
 2. Working group recommendation
 3. Council approval for minor (1.x) or major (2.0) bumps
-4. Published on `schema.landscapefederation.org.au` with CHANGELOG
+4. Published on `schema.landscapefoundation.org.au` with CHANGELOG
 
 ## Cultural context governance
 

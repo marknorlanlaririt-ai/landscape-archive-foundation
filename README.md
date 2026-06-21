@@ -1,25 +1,44 @@
-# Open landscape data standard
+# TLA-169 — Landscape Archive Foundation open standard
 
-Public, open metadata standard for Australian landscape architecture projects — for use by practices, academia, councils, and environmental bodies.
+Public mirror of the TLA-169 field dictionary and JSON Schema modules.
 
-> **Status:** early-stage, draft v1. This is an open metadata standard initiative — **not an incorporated body, not a registered entity**, and **not affiliated with, endorsed by, or representative of** any professional institute, association, or government body. "Federation" is an internal working name for the proposed governance group only.
+**Licence:** [CC BY-NC-ND 4.0](LICENSE) — non-commercial reference use without modification.
+**Commercial implementation:** [Contact The Landscape Archive Pty Ltd](https://landscapearchive.com.au/contact?topic=foundation-commercial-licence)
 
-**Canonical URL (target):** https://schema.landscapefederation.org.au
+| Resource | Path |
+|----------|------|
+| Field dictionary (169 fields) | `tla169-fields.json` |
+| JSON Schema modules | `schema/` |
+| Worked examples | `examples/` |
+| Badge criteria | `BADGE_CRITERIA_v1.md` |
+| Governance | `GOVERNANCE.md` |
+
+**Live registry:** https://landscapearchive.com.au/foundation/registry
+**Schema portal:** https://la-federation-schema.pages.dev
+
+---
+
+Public, open metadata standard for Australian landscape architecture projects — stewarded by the **Landscape Archive Foundation** for use by practices, academia, councils, and environmental bodies.
+
+> **Status:** early-stage, draft v1. The Foundation is **not yet an incorporated body or registered entity**, and **is not affiliated with, endorsed by, or representative of** any professional institute, association, or government body.
+
+**Canonical URL (interim):** https://la-federation-schema.pages.dev  
+**Target URL:** https://schema.landscapefoundation.org.au (when registered)
 
 ## How it works
 
 ```mermaid
 flowchart LR
-  subgraph nodes [Independent nodes]
+  subgraph orgs [Independent organisations]
     P[Private practices]
     U[Universities]
     C[Councils]
   end
 
-  subgraph fed [Federation layer — open]
+  subgraph foundation [Foundation layer — open]
     S[JSON Schema + JSON-LD]
     V[Validator]
-    B[Federation Approved badge]
+    B[Foundation Approved badge]
   end
 
   subgraph impl [Commercial implementations]
@@ -37,10 +56,20 @@ flowchart LR
   LA -->|sells families, Library, packs| P
 ```
 
-1. **Nodes stay independent** — each practice or university owns projects and internal workflows.
-2. **Federation owns the vocabulary** — open schema files (Project, Botanical asset, Site context, Sustainability, Cultural context) published on a **separate domain**.
-3. **Anyone can validate** — export a JSON bundle, run the validator, earn a **Federation Approved** badge when criteria are met.
+1. **Organisations stay independent** — each practice or university owns projects and internal workflows.
+2. **The Foundation stewards the vocabulary** — open schema files (Project, Botanical asset, Site context, Sustainability, Cultural context) published on a **separate domain**.
+3. **Anyone can validate** — export a JSON bundle, run the validator, earn a **Foundation Approved** badge when criteria are met.
 4. **Implementations compete on quality** — Landscape Archive (and others) map the open schema to Revit, GIS, and asset libraries and may **sell** premium deliverables on top.
+
+## Open source
+
+| Asset | Licence |
+|-------|---------|
+| TLA-169 field dictionary & JSON Schema modules | CC BY-NC-ND 4.0 |
+| Foundation documentation | CC BY-NC-ND 4.0 |
+| Reference validator code (`lib/`) | Apache-2.0 (where marked) |
+
+v1 JSON property names (e.g. `federationSchemaVersion`) retain a legacy prefix for compatibility; governance and public docs use Foundation naming.
 
 ## Can Landscape Archive still sell plants?
 
@@ -49,12 +78,12 @@ flowchart LR
 | Layer | What it is | Can you charge? |
 |-------|------------|-----------------|
 | Open standard | Open JSON fields, validator, badge rules | No — free to use |
-| Federation registry (future) | Member-uploaded open assets tagged with schema | Open-licence assets only |
+| Foundation registry (future) | Member-uploaded open assets tagged with schema | Open-licence assets only |
 | **Landscape Archive** | Library, Revit families, shop packs, subscriptions, certification | **Yes — unchanged** |
 
-Analogy: **HTML is free; you can still sell websites.** Federation metadata is free; Landscape Archive sells BIM-ready families, data pipelines, Hub, and Studio tooling that **implements** the standard.
+Analogy: **HTML is free; you can still sell websites.** Foundation metadata is free; Landscape Archive sells BIM-ready families, data pipelines, Hub, and Studio tooling that **implements** the standard.
 
-Commercial products may reference federation fields via `implementationProductRef` without merging commerce into the open standard.
+Commercial products may reference schema fields via `implementationProductRef` without merging commerce into the open standard.
 
 ## Repository layout
 
@@ -71,16 +100,10 @@ federation/
 
 ```bash
 npm run federation:validate   # check example bundles
+npm run federation:validate:bundle -- path/to/bundle.json [--badge] [--json]
 npm run federation:build    # assemble dist/ for Pages deploy
 npm run federation:deploy   # deploy to Cloudflare Pages (separate project)
 ```
-
-## Licence
-
-- **Schema files** — Apache-2.0 (see `LICENSE-APACHE`)
-- **Documentation** — CC BY 4.0 (see `LICENSE-CC-BY`)
-
-Landscape Archive application code, connectors, and canonical species datasets remain under separate commercial / IP terms.
 
 ## Related docs
 
@@ -90,7 +113,7 @@ Landscape Archive application code, connectors, and canonical species datasets r
 - [INCORPORATION_CHECKLIST.md](./INCORPORATION_CHECKLIST.md) — forming the incorporated association (chosen path)
 - [ASSOCIATION_RULES.md](./ASSOCIATION_RULES.md) — objects + governance rules to attach to the application
 - [INAUGURAL_MEETING_MINUTES.md](./INAUGURAL_MEETING_MINUTES.md) — founding meeting minutes template
-- [FOUNDING_INVITATION.md](./FOUNDING_INVITATION.md) — invitation for founding members
-- [COMMERCIAL_SEPARATION.md](./COMMERCIAL_SEPARATION.md) — federation vs Landscape Archive
+- [FOUNDING_INVITATION.md](./FOUNDING_INVITATION.md) — invitation for founding supporters
+- [COMMERCIAL_SEPARATION.md](./COMMERCIAL_SEPARATION.md) — Foundation vs Landscape Archive
 - [GOVERNANCE.md](./GOVERNANCE.md) — draft council model
-- [DOMAIN_SETUP.md](./DOMAIN_SETUP.md) — DNS and Cloudflare Pages for `schema.landscapefederation.org.au`
+- [DOMAIN_SETUP.md](./DOMAIN_SETUP.md) — DNS and Cloudflare Pages for the schema portal

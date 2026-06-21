@@ -22,7 +22,7 @@
     },
     "growthForm": {
       "type": "string",
-      "description": "Federation growth-form label (maps to practice archetypes)."
+      "description": "Foundation growth-form label (maps to practice archetypes)."
     },
     "matureHeight_m": { "type": "number", "minimum": 0 },
     "matureSpread_m": { "type": "number", "minimum": 0 },
@@ -42,7 +42,7 @@
     },
     "implementationProductRef": {
       "type": "string",
-      "description": "Optional commercial product SKU or family key (e.g. Landscape Archive assetKey). Does not imply federation endorsement of paid products."
+      "description": "Optional commercial product SKU or family key (e.g. Landscape Archive assetKey). Does not imply Foundation endorsement of paid products."
     }
   },
   "additionalProperties": true

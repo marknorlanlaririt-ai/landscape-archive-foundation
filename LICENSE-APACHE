@@ -2,7 +2,12 @@ Apache License
 Version 2.0, January 2004
 http://www.apache.org/licenses/
 
-Copyright 2026 Australian Landscape Architecture Federation (schema working group)
+NOTE (2026-06-21): The TLA-169 public standard dictionary and JSON Schema modules
+are licensed under CC BY-NC-ND 4.0 — see LICENSE-CC-BY and LICENSE.md. This Apache
+notice applies only to reference validator / tooling code in lib/ where explicitly
+marked as Apache-2.0.
+
+Copyright 2026 Landscape Archive Foundation (schema working group)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use schema files except in compliance with the License.
