@@ -1,9 +1,9 @@
 {
-  "standardId": "TLA-169",
-  "standardLabel": "TLA-169 — Landscape Archive metadata standard",
+  "standardId": "169",
+  "standardLabel": "169 — Landscape Archive metadata standard",
   "version": "1.0.0",
   "fieldCount": 169,
-  "generatedAt": "2026-06-22T06:27:46.342Z",
+  "generatedAt": "2026-06-22T07:24:07.515Z",
   "licence": {
     "publicStandard": "CC-BY-NC-ND-4.0",
     "documentation": "CC-BY-NC-ND-4.0"
@@ -83,7 +83,7 @@
   ],
   "fields": [
     {
-      "id": "TLA-169-001",
+      "id": "169-001",
       "key": "speciesKey",
       "label": "Species key",
       "module": "taxonomy",
@@ -96,7 +96,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-002",
+      "id": "169-002",
       "key": "taxonID",
       "label": "Taxon ID",
       "module": "taxonomy",
@@ -109,7 +109,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-003",
+      "id": "169-003",
       "key": "scientificName",
       "label": "Scientific name",
       "module": "taxonomy",
@@ -122,7 +122,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-004",
+      "id": "169-004",
       "key": "acceptedScientificName",
       "label": "Accepted scientific name",
       "module": "taxonomy",
@@ -135,7 +135,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-005",
+      "id": "169-005",
       "key": "canonicalName",
       "label": "Canonical name",
       "module": "taxonomy",
@@ -148,7 +148,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-006",
+      "id": "169-006",
       "key": "vernacularName",
       "label": "Vernacular name",
       "module": "taxonomy",
@@ -161,7 +161,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-007",
+      "id": "169-007",
       "key": "family",
       "label": "Family",
       "module": "taxonomy",
@@ -174,7 +174,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-008",
+      "id": "169-008",
       "key": "genus",
       "label": "Genus",
       "module": "taxonomy",
@@ -187,7 +187,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-009",
+      "id": "169-009",
       "key": "specificEpithet",
       "label": "Specific epithet",
       "module": "taxonomy",
@@ -200,7 +200,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-010",
+      "id": "169-010",
       "key": "taxonRank",
       "label": "Taxon rank",
       "module": "taxonomy",
@@ -213,7 +213,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-011",
+      "id": "169-011",
       "key": "class",
       "label": "Class",
       "module": "taxonomy",
@@ -226,7 +226,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-012",
+      "id": "169-012",
       "key": "states",
       "label": "State distribution",
       "module": "taxonomy",
@@ -239,7 +239,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-013",
+      "id": "169-013",
       "key": "nativeStatus",
       "label": "Native status",
       "module": "taxonomy",
@@ -257,7 +257,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-014",
+      "id": "169-014",
       "key": "conservationStatus",
       "label": "Conservation status",
       "module": "taxonomy",
@@ -270,7 +270,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-015",
+      "id": "169-015",
       "key": "occurrenceCount",
       "label": "Occurrence count",
       "module": "taxonomy",
@@ -283,7 +283,7 @@
       "moduleLabel": "Taxonomy & identity"
     },
     {
-      "id": "TLA-169-016",
+      "id": "169-016",
       "key": "growthForms",
       "label": "Growth forms",
       "module": "traits",
@@ -296,7 +296,7 @@
       "moduleLabel": "Traits & morphology"
     },
     {
-      "id": "TLA-169-017",
+      "id": "169-017",
       "key": "totalObservations",
       "label": "Trait observations",
       "module": "traits",
@@ -309,7 +309,7 @@
       "moduleLabel": "Traits & morphology"
     },
     {
-      "id": "TLA-169-018",
+      "id": "169-018",
       "key": "uniqueTraits",
       "label": "Unique traits",
       "module": "traits",
@@ -322,7 +322,7 @@
       "moduleLabel": "Traits & morphology"
     },
     {
-      "id": "TLA-169-019",
+      "id": "169-019",
       "key": "plantHeight_m",
       "label": "Plant height (m)",
       "module": "traits",
@@ -335,7 +335,7 @@
       "moduleLabel": "Traits & morphology"
     },
     {
-      "id": "TLA-169-020",
+      "id": "169-020",
       "key": "leafLength_mm",
       "label": "Leaf length (mm)",
       "module": "traits",
@@ -348,7 +348,7 @@
       "moduleLabel": "Traits & morphology"
     },
     {
-      "id": "TLA-169-021",
+      "id": "169-021",
       "key": "leafWidth_mm",
       "label": "Leaf width (mm)",
       "module": "traits",
@@ -361,7 +361,7 @@
       "moduleLabel": "Traits & morphology"
     },
     {
-      "id": "TLA-169-022",
+      "id": "169-022",
       "key": "leafArea_mm2",
       "label": "Leaf area (mm²)",
       "module": "traits",
@@ -374,7 +374,7 @@
       "moduleLabel": "Traits & morphology"
     },
     {
-      "id": "TLA-169-023",
+      "id": "169-023",
       "key": "seedMass_mg",
       "label": "Seed mass (mg)",
       "module": "traits",
@@ -387,7 +387,7 @@
       "moduleLabel": "Traits & morphology"
     },
     {
-      "id": "TLA-169-024",
+      "id": "169-024",
       "key": "floweringTime",
       "label": "Flowering time",
       "module": "traits",
@@ -400,7 +400,7 @@
       "moduleLabel": "Traits & morphology"
     },
     {
-      "id": "TLA-169-025",
+      "id": "169-025",
       "key": "fireResponse",
       "label": "Fire response",
       "module": "traits",
@@ -413,7 +413,7 @@
       "moduleLabel": "Traits & morphology"
     },
     {
-      "id": "TLA-169-026",
+      "id": "169-026",
       "key": "leafPhenology",
       "label": "Leaf phenology",
       "module": "traits",
@@ -426,7 +426,7 @@
       "moduleLabel": "Traits & morphology"
     },
     {
-      "id": "TLA-169-027",
+      "id": "169-027",
       "key": "specificLeafArea_mm2_mg",
       "label": "Specific leaf area",
       "module": "traits",
@@ -439,7 +439,7 @@
       "moduleLabel": "Traits & morphology"
     },
     {
-      "id": "TLA-169-028",
+      "id": "169-028",
       "key": "locationMethod",
       "label": "Location method",
       "module": "environment",
@@ -452,7 +452,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-029",
+      "id": "169-029",
       "key": "latitude",
       "label": "Latitude",
       "module": "environment",
@@ -465,7 +465,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-030",
+      "id": "169-030",
       "key": "longitude",
       "label": "Longitude",
       "module": "environment",
@@ -478,7 +478,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-031",
+      "id": "169-031",
       "key": "bbox",
       "label": "Bounding box",
       "module": "environment",
@@ -491,7 +491,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-032",
+      "id": "169-032",
       "key": "soilOrganicCarbon",
       "label": "Soil organic carbon",
       "module": "environment",
@@ -504,7 +504,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-033",
+      "id": "169-033",
       "key": "soilClay",
       "label": "Soil clay",
       "module": "environment",
@@ -517,7 +517,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-034",
+      "id": "169-034",
       "key": "soilSand",
       "label": "Soil sand",
       "module": "environment",
@@ -530,7 +530,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-035",
+      "id": "169-035",
       "key": "soilPhWater",
       "label": "Soil pH (water)",
       "module": "environment",
@@ -543,7 +543,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-036",
+      "id": "169-036",
       "key": "soilPhCaCl2",
       "label": "Soil pH (CaCl₂)",
       "module": "environment",
@@ -556,7 +556,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-037",
+      "id": "169-037",
       "key": "availableWaterCapacity",
       "label": "Available water capacity",
       "module": "environment",
@@ -569,7 +569,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-038",
+      "id": "169-038",
       "key": "totalNitrogen",
       "label": "Total nitrogen",
       "module": "environment",
@@ -582,7 +582,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-039",
+      "id": "169-039",
       "key": "totalPhosphorus",
       "label": "Total phosphorus",
       "module": "environment",
@@ -595,7 +595,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-040",
+      "id": "169-040",
       "key": "effectiveCationExchangeCapacity",
       "label": "Effective CEC",
       "module": "environment",
@@ -608,7 +608,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-041",
+      "id": "169-041",
       "key": "depthOfSoil",
       "label": "Depth of soil",
       "module": "environment",
@@ -621,7 +621,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-042",
+      "id": "169-042",
       "key": "climateWindow",
       "label": "Climate window",
       "module": "environment",
@@ -634,7 +634,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-043",
+      "id": "169-043",
       "key": "annualRainfall",
       "label": "Annual rainfall",
       "module": "environment",
@@ -647,7 +647,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-044",
+      "id": "169-044",
       "key": "meanMaxTemp",
       "label": "Mean maximum temperature",
       "module": "environment",
@@ -660,7 +660,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-045",
+      "id": "169-045",
       "key": "meanMinTemp",
       "label": "Mean minimum temperature",
       "module": "environment",
@@ -673,7 +673,7 @@
       "moduleLabel": "Environment & site risk"
     },
     {
-      "id": "TLA-169-046",
+      "id": "169-046",
       "key": "packageType",
       "label": "Package type",
       "module": "provenance",
@@ -686,7 +686,7 @@
       "moduleLabel": "Provenance"
     },
     {
-      "id": "TLA-169-047",
+      "id": "169-047",
       "key": "downloadId",
       "label": "Download ID",
       "module": "provenance",
@@ -699,7 +699,7 @@
       "moduleLabel": "Provenance"
     },
     {
-      "id": "TLA-169-048",
+      "id": "169-048",
       "key": "generatedAt",
       "label": "Generated at",
       "module": "provenance",
@@ -712,7 +712,7 @@
       "moduleLabel": "Provenance"
     },
     {
-      "id": "TLA-169-049",
+      "id": "169-049",
       "key": "sourceArtifact",
       "label": "Source artifact",
       "module": "provenance",
@@ -725,7 +725,7 @@
       "moduleLabel": "Provenance"
     },
     {
-      "id": "TLA-169-050",
+      "id": "169-050",
       "key": "recordSource",
       "label": "Record source",
       "module": "provenance",
@@ -738,7 +738,7 @@
       "moduleLabel": "Provenance"
     },
     {
-      "id": "TLA-169-051",
+      "id": "169-051",
       "key": "traitSource",
       "label": "Trait source",
       "module": "provenance",
@@ -751,7 +751,7 @@
       "moduleLabel": "Provenance"
     },
     {
-      "id": "TLA-169-052",
+      "id": "169-052",
       "key": "environmentSource",
       "label": "Environment source",
       "module": "provenance",
@@ -764,7 +764,7 @@
       "moduleLabel": "Provenance"
     },
     {
-      "id": "TLA-169-053",
+      "id": "169-053",
       "key": "commercialUsePlan",
       "label": "Commercial use plan",
       "module": "licensing",
@@ -777,7 +777,7 @@
       "moduleLabel": "Licensing & rights"
     },
     {
-      "id": "TLA-169-054",
+      "id": "169-054",
       "key": "rightsStatus",
       "label": "Rights status",
       "module": "licensing",
@@ -790,7 +790,7 @@
       "moduleLabel": "Licensing & rights"
     },
     {
-      "id": "TLA-169-055",
+      "id": "169-055",
       "key": "traitRightsStatus",
       "label": "Trait rights status",
       "module": "licensing",
@@ -803,7 +803,7 @@
       "moduleLabel": "Licensing & rights"
     },
     {
-      "id": "TLA-169-056",
+      "id": "169-056",
       "key": "imageRightsStatus",
       "label": "Image rights status",
       "module": "licensing",
@@ -816,7 +816,7 @@
       "moduleLabel": "Licensing & rights"
     },
     {
-      "id": "TLA-169-057",
+      "id": "169-057",
       "key": "derivedContextReleaseRule",
       "label": "Derived context release rule",
       "module": "licensing",
@@ -829,7 +829,7 @@
       "moduleLabel": "Licensing & rights"
     },
     {
-      "id": "TLA-169-058",
+      "id": "169-058",
       "key": "revitArchetype",
       "label": "Revit archetype",
       "module": "product",
@@ -842,7 +842,7 @@
       "moduleLabel": "Product & publisher"
     },
     {
-      "id": "TLA-169-059",
+      "id": "169-059",
       "key": "revitArchetypeConfidence",
       "label": "Revit archetype confidence",
       "module": "product",
@@ -855,7 +855,7 @@
       "moduleLabel": "Product & publisher"
     },
     {
-      "id": "TLA-169-060",
+      "id": "169-060",
       "key": "assetStatus",
       "label": "Asset status",
       "module": "product",
@@ -868,7 +868,7 @@
       "moduleLabel": "Product & publisher"
     },
     {
-      "id": "TLA-169-061",
+      "id": "169-061",
       "key": "familyTemplate",
       "label": "Family template",
       "module": "product",
@@ -881,7 +881,7 @@
       "moduleLabel": "Product & publisher"
     },
     {
-      "id": "TLA-169-062",
+      "id": "169-062",
       "key": "publisherName",
       "label": "Publisher name",
       "module": "product",
@@ -894,7 +894,7 @@
       "moduleLabel": "Product & publisher"
     },
     {
-      "id": "TLA-169-063",
+      "id": "169-063",
       "key": "federationSchemaVersion",
       "label": "Schema version",
       "module": "project",
@@ -907,7 +907,7 @@
       "moduleLabel": "Project record"
     },
     {
-      "id": "TLA-169-064",
+      "id": "169-064",
       "key": "projectId",
       "label": "Project ID",
       "module": "project",
@@ -920,7 +920,7 @@
       "moduleLabel": "Project record"
     },
     {
-      "id": "TLA-169-065",
+      "id": "169-065",
       "key": "title",
       "label": "Project title",
       "module": "project",
@@ -933,7 +933,7 @@
       "moduleLabel": "Project record"
     },
     {
-      "id": "TLA-169-066",
+      "id": "169-066",
       "key": "nodeId",
       "label": "Organisation node ID",
       "module": "project",
@@ -946,7 +946,7 @@
       "moduleLabel": "Project record"
     },
     {
-      "id": "TLA-169-067",
+      "id": "169-067",
       "key": "nodeType",
       "label": "Organisation node type",
       "module": "project",
@@ -966,7 +966,7 @@
       "moduleLabel": "Project record"
     },
     {
-      "id": "TLA-169-068",
+      "id": "169-068",
       "key": "jurisdiction.country",
       "label": "Jurisdiction country",
       "module": "project",
@@ -979,7 +979,7 @@
       "moduleLabel": "Project record"
     },
     {
-      "id": "TLA-169-069",
+      "id": "169-069",
       "key": "jurisdiction.stateOrTerritory",
       "label": "State or territory",
       "module": "project",
@@ -1001,7 +1001,7 @@
       "moduleLabel": "Project record"
     },
     {
-      "id": "TLA-169-070",
+      "id": "169-070",
       "key": "jurisdiction.lga",
       "label": "Local government area",
       "module": "project",
@@ -1014,7 +1014,7 @@
       "moduleLabel": "Project record"
     },
     {
-      "id": "TLA-169-071",
+      "id": "169-071",
       "key": "jurisdiction.locality",
       "label": "Locality",
       "module": "project",
@@ -1027,7 +1027,7 @@
       "moduleLabel": "Project record"
     },
     {
-      "id": "TLA-169-072",
+      "id": "169-072",
       "key": "projectPhase",
       "label": "Project phase",
       "module": "project",
@@ -1046,7 +1046,7 @@
       "moduleLabel": "Project record"
     },
     {
-      "id": "TLA-169-073",
+      "id": "169-073",
       "key": "federationApproved",
       "label": "Foundation Approved flag",
       "module": "project",
@@ -1059,7 +1059,7 @@
       "moduleLabel": "Project record"
     },
     {
-      "id": "TLA-169-074",
+      "id": "169-074",
       "key": "updatedAt",
       "label": "Updated at",
       "module": "project",
@@ -1072,7 +1072,7 @@
       "moduleLabel": "Project record"
     },
     {
-      "id": "TLA-169-075",
+      "id": "169-075",
       "key": "soilProfile.order",
       "label": "Soil order",
       "module": "site-context",
@@ -1085,7 +1085,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-076",
+      "id": "169-076",
       "key": "soilProfile.clayPercentBand",
       "label": "Clay percent band",
       "module": "site-context",
@@ -1098,7 +1098,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-077",
+      "id": "169-077",
       "key": "soilProfile.sandPercentBand",
       "label": "Sand percent band",
       "module": "site-context",
@@ -1111,7 +1111,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-078",
+      "id": "169-078",
       "key": "soilProfile.phBand",
       "label": "Soil pH band",
       "module": "site-context",
@@ -1124,7 +1124,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-079",
+      "id": "169-079",
       "key": "soilProfile.organicCarbonBand",
       "label": "Organic carbon band",
       "module": "site-context",
@@ -1137,7 +1137,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-080",
+      "id": "169-080",
       "key": "soilProfile.source",
       "label": "Soil profile source",
       "module": "site-context",
@@ -1150,7 +1150,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-081",
+      "id": "169-081",
       "key": "climateBand.koppenClass",
       "label": "Köppen class",
       "module": "site-context",
@@ -1163,7 +1163,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-082",
+      "id": "169-082",
       "key": "climateBand.rainfallMmBand",
       "label": "Rainfall band (mm)",
       "module": "site-context",
@@ -1176,7 +1176,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-083",
+      "id": "169-083",
       "key": "climateBand.temperatureBand",
       "label": "Temperature band",
       "module": "site-context",
@@ -1189,7 +1189,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-084",
+      "id": "169-084",
       "key": "climateBand.source",
       "label": "Climate band source",
       "module": "site-context",
@@ -1202,7 +1202,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-085",
+      "id": "169-085",
       "key": "topography.slopeClass",
       "label": "Slope class",
       "module": "site-context",
@@ -1221,7 +1221,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-086",
+      "id": "169-086",
       "key": "topography.elevation_m",
       "label": "Elevation (m)",
       "module": "site-context",
@@ -1234,7 +1234,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-087",
+      "id": "169-087",
       "key": "exposure",
       "label": "Exposure",
       "module": "site-context",
@@ -1254,7 +1254,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-088",
+      "id": "169-088",
       "key": "microclimateNotes",
       "label": "Microclimate notes",
       "module": "site-context",
@@ -1267,7 +1267,7 @@
       "moduleLabel": "Site context (standard bands)"
     },
     {
-      "id": "TLA-169-089",
+      "id": "169-089",
       "key": "climatePositiveClaim",
       "label": "Climate positive claim",
       "module": "sustainability",
@@ -1280,7 +1280,7 @@
       "moduleLabel": "Sustainability disclosure"
     },
     {
-      "id": "TLA-169-090",
+      "id": "169-090",
       "key": "carbonSequestration_kgCO2e_perYear",
       "label": "Carbon sequestration (kg CO₂e/yr)",
       "module": "sustainability",
@@ -1293,7 +1293,7 @@
       "moduleLabel": "Sustainability disclosure"
     },
     {
-      "id": "TLA-169-091",
+      "id": "169-091",
       "key": "embodiedCarbon_kgCO2e",
       "label": "Embodied carbon (kg CO₂e)",
       "module": "sustainability",
@@ -1306,7 +1306,7 @@
       "moduleLabel": "Sustainability disclosure"
     },
     {
-      "id": "TLA-169-092",
+      "id": "169-092",
       "key": "waterSensitiveDesign",
       "label": "Water sensitive design",
       "module": "sustainability",
@@ -1319,7 +1319,7 @@
       "moduleLabel": "Sustainability disclosure"
     },
     {
-      "id": "TLA-169-093",
+      "id": "169-093",
       "key": "nativePlantingPercent",
       "label": "Native planting percent",
       "module": "sustainability",
@@ -1332,7 +1332,7 @@
       "moduleLabel": "Sustainability disclosure"
     },
     {
-      "id": "TLA-169-094",
+      "id": "169-094",
       "key": "disclosureStandard",
       "label": "Disclosure standard",
       "module": "sustainability",
@@ -1345,7 +1345,7 @@
       "moduleLabel": "Sustainability disclosure"
     },
     {
-      "id": "TLA-169-095",
+      "id": "169-095",
       "key": "evidence.label",
       "label": "Evidence label",
       "module": "sustainability",
@@ -1358,7 +1358,7 @@
       "moduleLabel": "Sustainability disclosure"
     },
     {
-      "id": "TLA-169-096",
+      "id": "169-096",
       "key": "evidence.uri",
       "label": "Evidence URI",
       "module": "sustainability",
@@ -1371,7 +1371,7 @@
       "moduleLabel": "Sustainability disclosure"
     },
     {
-      "id": "TLA-169-097",
+      "id": "169-097",
       "key": "evidence.method",
       "label": "Evidence method",
       "module": "sustainability",
@@ -1384,7 +1384,7 @@
       "moduleLabel": "Sustainability disclosure"
     },
     {
-      "id": "TLA-169-098",
+      "id": "169-098",
       "key": "sensitivityClass",
       "label": "Sensitivity class",
       "module": "cultural-context",
@@ -1401,7 +1401,7 @@
       "moduleLabel": "Cultural context"
     },
     {
-      "id": "TLA-169-099",
+      "id": "169-099",
       "key": "culturalEngagementLevel",
       "label": "Cultural engagement level",
       "module": "cultural-context",
@@ -1420,7 +1420,7 @@
       "moduleLabel": "Cultural context"
     },
     {
-      "id": "TLA-169-100",
+      "id": "169-100",
       "key": "protocolAuthorityRef",
       "label": "Protocol authority reference",
       "module": "cultural-context",
@@ -1433,7 +1433,7 @@
       "moduleLabel": "Cultural context"
     },
     {
-      "id": "TLA-169-101",
+      "id": "169-101",
       "key": "connectionToCountrySummary",
       "label": "Connection to Country summary",
       "module": "cultural-context",
@@ -1446,7 +1446,7 @@
       "moduleLabel": "Cultural context"
     },
     {
-      "id": "TLA-169-102",
+      "id": "169-102",
       "key": "restrictedPayloadRef",
       "label": "Restricted payload reference",
       "module": "cultural-context",
@@ -1459,7 +1459,7 @@
       "moduleLabel": "Cultural context"
     },
     {
-      "id": "TLA-169-103",
+      "id": "169-103",
       "key": "redactionNotice",
       "label": "Redaction notice",
       "module": "cultural-context",
@@ -1472,7 +1472,7 @@
       "moduleLabel": "Cultural context"
     },
     {
-      "id": "TLA-169-104",
+      "id": "169-104",
       "key": "assetId",
       "label": "Asset ID",
       "module": "botanical-asset",
@@ -1485,7 +1485,7 @@
       "moduleLabel": "Botanical asset"
     },
     {
-      "id": "TLA-169-105",
+      "id": "169-105",
       "key": "quantity",
       "label": "Quantity",
       "module": "botanical-asset",
@@ -1498,7 +1498,7 @@
       "moduleLabel": "Botanical asset"
     },
     {
-      "id": "TLA-169-106",
+      "id": "169-106",
       "key": "unit",
       "label": "Quantity unit",
       "module": "botanical-asset",
@@ -1517,7 +1517,7 @@
       "moduleLabel": "Botanical asset"
     },
     {
-      "id": "TLA-169-107",
+      "id": "169-107",
       "key": "waterRequirementClass",
       "label": "Water requirement class",
       "module": "botanical-asset",
@@ -1537,7 +1537,7 @@
       "moduleLabel": "Botanical asset"
     },
     {
-      "id": "TLA-169-108",
+      "id": "169-108",
       "key": "sourceRegistry",
       "label": "Source registry",
       "module": "botanical-asset",
@@ -1550,7 +1550,7 @@
       "moduleLabel": "Botanical asset"
     },
     {
-      "id": "TLA-169-109",
+      "id": "169-109",
       "key": "implementationProductRef",
       "label": "Implementation product reference",
       "module": "botanical-asset",
@@ -1563,7 +1563,7 @@
       "moduleLabel": "Botanical asset"
     },
     {
-      "id": "TLA-169-110",
+      "id": "169-110",
       "key": "LA_BotanicalName",
       "label": "Botanical Name",
       "module": "revit-shared-parameter",
@@ -1576,7 +1576,7 @@
       "moduleLabel": "Revit shared parameters"
     },
     {
-      "id": "TLA-169-111",
+      "id": "169-111",
       "key": "LA_CommonName",
       "label": "Common Name",
       "module": "revit-shared-parameter",
@@ -1589,7 +1589,7 @@
       "moduleLabel": "Revit shared parameters"
     },
     {
-      "id": "TLA-169-112",
+      "id": "169-112",
       "key": "LA_Family",
       "label": "Family",
       "module": "revit-shared-parameter",
@@ -1602,7 +1602,7 @@
       "moduleLabel": "Revit shared parameters"
     },
     {
-      "id": "TLA-169-113",
+      "id": "169-113",
       "key": "LA_Genus",
       "label": "Genus",
       "module": "revit-shared-parameter",
@@ -1615,7 +1615,7 @@
       "moduleLabel": "Revit shared parameters"
     },
     {
-      "id": "TLA-169-114",
+      "id": "169-114",
       "key": "LA_Form",
       "label": "Form",
       "module": "revit-shared-parameter",
@@ -1628,7 +1628,7 @@
       "moduleLabel": "Revit shared parameters"
     },
     {
-      "id": "TLA-169-115",
+      "id": "169-115",
       "key": "LA_SpecificationCode",
       "label": "Specification Code",
       "module": "revit-shared-parameter",
@@ -1641,7 +1641,7 @@
       "moduleLabel": "Revit shared parameters"
     },
     {
-      "id": "TLA-169-116",
+      "id": "169-116",
       "key": "LA_SpecificationSection",
       "label": "Specification Section",
       "module": "revit-shared-parameter",
@@ -1654,7 +1654,7 @@
       "moduleLabel": "Revit shared parameters"
     },
     {
-      "id": "TLA-169-117",
+      "id": "169-117",
       "key": "LA_DrawingTag",
       "label": "Drawing Tag",
       "module": "revit-shared-parameter",
@@ -1667,7 +1667,7 @@
       "moduleLabel": "Revit shared parameters"
     },
     {
-      "id": "TLA-169-118",
+      "id": "169-118",
       "key": "LA_Keynote",
       "label": "Keynote",
       "module": "revit-shared-parameter",
@@ -1680,7 +1680,7 @@
       "moduleLabel": "Revit shared parameters"
     },
     {
-      "id": "TLA-169-119",
+      "id": "169-119",
       "key": "LA_MatureHeightM",
       "label": "Mature Height M",
       "module": "revit-shared-parameter",
@@ -1693,7 +1693,7 @@
       "moduleLabel": "Revit shared parameters"
     },
     {
-      "id": "TLA-169-120",
+      "id": "169-120",
       "key": "LA_MatureSpreadM",
       "label": "Mature Spread M",
       "module": "revit-shared-parameter",
@@ -1706,7 +1706,7 @@
       "moduleLabel": "Revit shared parameters"
     },
     {
-      "id": "TLA-169-121",
+      "id": "169-121",
       "key": "commonName",
       "label": "Common name",
       "module": "revit-download-form",
@@ -1719,7 +1719,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-122",
+      "id": "169-122",
       "key": "cultivar",
       "label": "Cultivar / variety",
       "module": "revit-download-form",
@@ -1732,7 +1732,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-123",
+      "id": "169-123",
       "key": "form",
       "label": "Supplied form",
       "module": "revit-download-form",
@@ -1745,7 +1745,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-124",
+      "id": "169-124",
       "key": "potSize",
       "label": "Pot size",
       "module": "revit-download-form",
@@ -1758,7 +1758,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-125",
+      "id": "169-125",
       "key": "containerType",
       "label": "Container type",
       "module": "revit-download-form",
@@ -1771,7 +1771,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-126",
+      "id": "169-126",
       "key": "bagSizeLitres",
       "label": "Bag size (L)",
       "module": "revit-download-form",
@@ -1784,7 +1784,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-127",
+      "id": "169-127",
       "key": "stockSize",
       "label": "Stock size",
       "module": "revit-download-form",
@@ -1797,7 +1797,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-128",
+      "id": "169-128",
       "key": "caliperMm",
       "label": "Caliper (mm)",
       "module": "revit-download-form",
@@ -1810,7 +1810,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-129",
+      "id": "169-129",
       "key": "trunkClearanceMm",
       "label": "Trunk clearance (mm)",
       "module": "revit-download-form",
@@ -1823,7 +1823,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-130",
+      "id": "169-130",
       "key": "rootBallDiameterMm",
       "label": "Root ball diameter (mm)",
       "module": "revit-download-form",
@@ -1836,7 +1836,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-131",
+      "id": "169-131",
       "key": "rootBallDepthMm",
       "label": "Root ball depth (mm)",
       "module": "revit-download-form",
@@ -1849,7 +1849,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-132",
+      "id": "169-132",
       "key": "installedHeightMm",
       "label": "Installed height (mm)",
       "module": "revit-download-form",
@@ -1862,7 +1862,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-133",
+      "id": "169-133",
       "key": "installedWidthMm",
       "label": "Installed width (mm)",
       "module": "revit-download-form",
@@ -1875,7 +1875,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-134",
+      "id": "169-134",
       "key": "canopyWidthMm",
       "label": "Canopy width (mm)",
       "module": "revit-download-form",
@@ -1888,7 +1888,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-135",
+      "id": "169-135",
       "key": "matureHeightM",
       "label": "Mature height (m)",
       "module": "revit-download-form",
@@ -1901,7 +1901,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-136",
+      "id": "169-136",
       "key": "matureSpreadM",
       "label": "Mature spread (m)",
       "module": "revit-download-form",
@@ -1914,7 +1914,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-137",
+      "id": "169-137",
       "key": "plantingSpacingMm",
       "label": "Planting spacing (mm)",
       "module": "revit-download-form",
@@ -1927,7 +1927,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-138",
+      "id": "169-138",
       "key": "minSoilDepthMm",
       "label": "Minimum soil depth (mm)",
       "module": "revit-download-form",
@@ -1940,7 +1940,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-139",
+      "id": "169-139",
       "key": "minSoilVolumeLitres",
       "label": "Minimum soil volume (L)",
       "module": "revit-download-form",
@@ -1953,7 +1953,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-140",
+      "id": "169-140",
       "key": "specificationCode",
       "label": "Specification code",
       "module": "revit-download-form",
@@ -1966,7 +1966,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-141",
+      "id": "169-141",
       "key": "specificationSection",
       "label": "Specification section",
       "module": "revit-download-form",
@@ -1979,7 +1979,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-142",
+      "id": "169-142",
       "key": "specificationText",
       "label": "Specification text",
       "module": "revit-download-form",
@@ -1992,7 +1992,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-143",
+      "id": "169-143",
       "key": "drawingTag",
       "label": "Drawing tag",
       "module": "revit-download-form",
@@ -2005,7 +2005,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-144",
+      "id": "169-144",
       "key": "keynote",
       "label": "Keynote",
       "module": "revit-download-form",
@@ -2018,7 +2018,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-145",
+      "id": "169-145",
       "key": "scheduledSize",
       "label": "Scheduled size",
       "module": "revit-download-form",
@@ -2031,7 +2031,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-146",
+      "id": "169-146",
       "key": "supplierName",
       "label": "Supplier / nursery",
       "module": "revit-download-form",
@@ -2044,7 +2044,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-147",
+      "id": "169-147",
       "key": "supplierSku",
       "label": "Supplier SKU",
       "module": "revit-download-form",
@@ -2057,7 +2057,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-148",
+      "id": "169-148",
       "key": "supplierLocation",
       "label": "Supplier location",
       "module": "revit-download-form",
@@ -2070,7 +2070,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-149",
+      "id": "169-149",
       "key": "unitRateAud",
       "label": "Unit rate (AUD)",
       "module": "revit-download-form",
@@ -2083,7 +2083,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-150",
+      "id": "169-150",
       "key": "availabilityStatus",
       "label": "Availability status",
       "module": "revit-download-form",
@@ -2096,7 +2096,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-151",
+      "id": "169-151",
       "key": "leadTimeDays",
       "label": "Lead time (days)",
       "module": "revit-download-form",
@@ -2109,7 +2109,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-152",
+      "id": "169-152",
       "key": "region",
       "label": "Project region",
       "module": "revit-download-form",
@@ -2122,7 +2122,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-153",
+      "id": "169-153",
       "key": "climateZone",
       "label": "Climate zone",
       "module": "revit-download-form",
@@ -2135,7 +2135,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-154",
+      "id": "169-154",
       "key": "provenance",
       "label": "Provenance notes",
       "module": "revit-download-form",
@@ -2148,7 +2148,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-155",
+      "id": "169-155",
       "key": "localNativeStatus",
       "label": "Local native status",
       "module": "revit-download-form",
@@ -2161,7 +2161,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-156",
+      "id": "169-156",
       "key": "biosecurityNotes",
       "label": "Biosecurity notes",
       "module": "revit-download-form",
@@ -2174,7 +2174,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-157",
+      "id": "169-157",
       "key": "maintenanceNotes",
       "label": "Maintenance notes",
       "module": "revit-download-form",
@@ -2187,7 +2187,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-158",
+      "id": "169-158",
       "key": "pruningRegime",
       "label": "Pruning regime",
       "module": "revit-download-form",
@@ -2200,7 +2200,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-159",
+      "id": "169-159",
       "key": "establishmentPeriodMonths",
       "label": "Establishment period (months)",
       "module": "revit-download-form",
@@ -2213,7 +2213,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-160",
+      "id": "169-160",
       "key": "irrigationDemand",
       "label": "Irrigation demand",
       "module": "revit-download-form",
@@ -2226,7 +2226,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-161",
+      "id": "169-161",
       "key": "sunExposure",
       "label": "Sun exposure",
       "module": "revit-download-form",
@@ -2239,7 +2239,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-162",
+      "id": "169-162",
       "key": "soilDrainage",
       "label": "Soil drainage",
       "module": "revit-download-form",
@@ -2252,7 +2252,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-163",
+      "id": "169-163",
       "key": "downloadNotes",
       "label": "Internal download notes",
       "module": "revit-download-form",
@@ -2265,7 +2265,7 @@
       "moduleLabel": "Revit download form"
     },
     {
-      "id": "TLA-169-164",
+      "id": "169-164",
       "key": "lod",
       "label": "Level of development",
       "module": "delivery",
@@ -2283,7 +2283,7 @@
       "moduleLabel": "Delivery & BIM"
     },
     {
-      "id": "TLA-169-165",
+      "id": "169-165",
       "key": "representationProfile",
       "label": "Representation profile",
       "module": "delivery",
@@ -2296,7 +2296,7 @@
       "moduleLabel": "Delivery & BIM"
     },
     {
-      "id": "TLA-169-166",
+      "id": "169-166",
       "key": "revitCategory",
       "label": "Revit category",
       "module": "delivery",
@@ -2309,7 +2309,7 @@
       "moduleLabel": "Delivery & BIM"
     },
     {
-      "id": "TLA-169-167",
+      "id": "169-167",
       "key": "assetKey",
       "label": "Asset key",
       "module": "delivery",
@@ -2322,7 +2322,7 @@
       "moduleLabel": "Delivery & BIM"
     },
     {
-      "id": "TLA-169-168",
+      "id": "169-168",
       "key": "chainOfTitleRef",
       "label": "Chain of title reference",
       "module": "delivery",
@@ -2335,7 +2335,7 @@
       "moduleLabel": "Delivery & BIM"
     },
     {
-      "id": "TLA-169-169",
+      "id": "169-169",
       "key": "foundationApprovedBadge",
       "label": "Foundation Approved badge",
       "module": "delivery",

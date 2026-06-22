@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://schema.landscapefederation.org.au/schema/bundle/v1_1.schema.json",
-  "title": "TLA-185 — Project Bundle",
+  "title": "185 — Project Bundle",
   "description": "Validated export container for Foundation Approved project metadata with climate screening extension.",
   "type": "object",
   "required": ["@context", "federationSchemaVersion", "standardId", "project"],
@@ -13,7 +13,7 @@
       ]
     },
     "federationSchemaVersion": { "type": "string", "const": "1.1.0" },
-    "standardId": { "type": "string", "const": "TLA-185" },
+    "standardId": { "type": "string", "const": "185" },
     "project": { "$ref": "https://schema.landscapefederation.org.au/schema/project/v1.schema.json" },
     "botanicalAssets": {
       "type": "array",

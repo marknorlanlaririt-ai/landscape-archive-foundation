@@ -1,41 +1,41 @@
-# RFC: TLA-185 — Climate screening & site-risk extension
+# RFC: 185 — Climate screening & site-risk extension
 
 | | |
 |---|---|
-| **Status** | Published (`tla-185-v1.0.0` on GitHub; Council review ongoing) |
+| **Status** | Published (`185-v1.0.0` on GitHub; Council review ongoing) |
 | **Author** | Landscape Archive Foundation working group |
 | **Date** | 2026-06-19 |
-| **Supersedes** | TLA-169 v1.0.0 (additive — TLA-169 remains valid) |
-| **Target release** | TLA-185 v1.0.0 |
+| **Supersedes** | 169 v1.0.0 (additive — 169 remains valid) |
+| **Target release** | 185 v1.0.0 |
 | **Field count** | **185** (= 169 base + **16** new) |
 
 ---
 
 ## Summary
 
-TLA-185 extends the open Landscape Archive metadata standard with **sixteen named fields** for:
+185 extends the open Landscape Archive metadata standard with **sixteen named fields** for:
 
-1. **Historical SILO scalars** missing from TLA-169 (`aridityIndex`, vapour pressure, pan evaporation, DEA land-cover band)
+1. **Historical SILO scalars** missing from 169 (`aridityIndex`, vapour pressure, pan evaporation, DEA land-cover band)
 2. **2050 climate projection screening** (CCIA-aligned regional deltas — not statutory projections)
 3. **Site bushfire overlay screening** (planning-proxy — not BAL certification)
 4. **2050 disclosure bands** on existing `siteContext.climateBand` for Foundation Approved interchange
 
-The Archive commercial pipeline (`Run-01 environmentContext`) already stores these values. TLA-185 names them for **open bundle export**, **Revit crosswalk**, and **AASB S2 / climate disclosure crosswalks** without exposing proprietary join logic.
+The Archive commercial pipeline (`Run-01 environmentContext`) already stores these values. 185 names them for **open bundle export**, **Revit crosswalk**, and **AASB S2 / climate disclosure crosswalks** without exposing proprietary join logic.
 
-**TLA-169 is not deprecated.** Validators MUST accept TLA-169 bundles indefinitely. TLA-185 bundles add optional modules; badge rules for TLA-169 remain unchanged.
+**169 is not deprecated.** Validators MUST accept 169 bundles indefinitely. 185 bundles add optional modules; badge rules for 169 remain unchanged.
 
 ---
 
 ## Motivation
 
-| Gap in TLA-169 | Run-01 / product reality |
+| Gap in 169 | Run-01 / product reality |
 |----------------|--------------------------|
 | Environment stops at `meanMinTemp` | SILO also yields aridity, vapour pressure, pan evaporation |
 | No projection fields | `environmentContext.climate.projections` (SSP2-4.5 / 2050 screening) |
 | No site-risk fields | `environmentContext.siteRisk.bushfire` overlay screening |
 | `siteContext.climateBand` is historical only | Compliance UI needs **2050 trend bands** for open disclosure |
 
-Prior guidance (`federation/COMMERCIAL_SEPARATION.md`) correctly keeps raw joins in Layer B (Archive). TLA-185 draws the **open naming line** for screening values and band derivations that third parties can interchange without LA entitlements.
+Prior guidance (`federation/COMMERCIAL_SEPARATION.md`) correctly keeps raw joins in Layer B (Archive). 185 draws the **open naming line** for screening values and band derivations that third parties can interchange without LA entitlements.
 
 ---
 
@@ -45,7 +45,7 @@ Prior guidance (`federation/COMMERCIAL_SEPARATION.md`) correctly keeps raw joins
 
 - 16 new field definitions in the public dictionary
 - Band derivation rules (2050 rainfall trend, heat stress)
-- Run-01 → TLA-185 mapping reference (`scripts/foundation/tla185-band-mapping.mjs`)
+- Run-01 → 185 mapping reference (`scripts/foundation/tla185-band-mapping.mjs`)
 - Crosswalk update (`federation/crosswalk/tla185-run01-environment-map.md`)
 - Optional Foundation Approved **v2 badge tier** (future) requiring 2050 bands when `climateScreening` is present
 
@@ -100,12 +100,12 @@ Prior guidance (`federation/COMMERCIAL_SEPARATION.md`) correctly keeps raw joins
 
 ---
 
-## Bundle shape (TLA-185)
+## Bundle shape (185)
 
 ```json
 {
   "federationSchemaVersion": "1.1.0",
-  "standardId": "TLA-185",
+  "standardId": "185",
   "project": { "...": "..." },
   "siteContext": {
     "climateBand": {
@@ -136,7 +136,7 @@ Prior guidance (`federation/COMMERCIAL_SEPARATION.md`) correctly keeps raw joins
 }
 ```
 
-`federationSchemaVersion` bumps to **`1.1.0`** for TLA-185 bundles. TLA-169 bundles remain **`1.0.0`**.
+`federationSchemaVersion` bumps to **`1.1.0`** for 185 bundles. 169 bundles remain **`1.0.0`**.
 
 ---
 
@@ -169,7 +169,7 @@ Implemented in `scripts/foundation/tla185-band-mapping.mjs`:
 
 ## Run-01 mapping
 
-| Run-01 path | TLA-185 path |
+| Run-01 path | 185 path |
 |-------------|--------------|
 | `climate.measurements.meanVapourPressure` | `sourceData.environment.meanVapourPressure` |
 | `climate.measurements.annualEvapPan` | `sourceData.environment.annualEvapPan` |
@@ -183,17 +183,17 @@ Full table: `federation/crosswalk/tla185-run01-environment-map.md`.
 
 ---
 
-## Relationship to TLA-169
+## Relationship to 169
 
-| | TLA-169 | TLA-185 |
+| | 169 | 185 |
 |---|---------|---------|
 | Field count | 169 | 185 |
 | Climate 2050 | bands only (manual) | named screening + derived bands |
 | Validators | `validate-bundle-v1.mjs` | new `validate-bundle-v1_1.mjs` (draft) |
 | Badge | Foundation Approved v1 | Foundation Approved v1 **or** v2 (optional climate module) |
-| GitHub tag | `tla-169-v1.0.0` | `tla-185-v1.0.0` (proposed) |
+| GitHub tag | `169-v1.0.0` | `185-v1.0.0` (proposed) |
 
-Export tools SHOULD emit `standardId: "TLA-185"` when projection or site-risk modules are populated.
+Export tools SHOULD emit `standardId: "185"` when projection or site-risk modules are populated.
 
 ---
 
@@ -201,7 +201,7 @@ Export tools SHOULD emit `standardId: "TLA-185"` when projection or site-risk mo
 
 Per `federation/GOVERNANCE.md`:
 
-- TLA-185 is a **new standard ID** (not a silent edit to 169)
+- 185 is a **new standard ID** (not a silent edit to 169)
 - Council approval: **simple majority** RFC (additive extension release)
 - Public licence unchanged: **CC BY-NC-ND 4.0** (dictionary), Apache-2.0 (reference mapping code)
 
@@ -224,7 +224,7 @@ Per `federation/GOVERNANCE.md`:
 
 | Alternative | Why rejected |
 |-------------|--------------|
-| Silent TLA-169 v1.1 at 182 fields | Breaks "169" brand promise; confuses Foundation Approved v1 validators |
+| Silent 169 v1.1 at 182 fields | Breaks "169" brand promise; confuses Foundation Approved v1 validators |
 | Field swap within 169 | Drops Revit download-form fields practitioners already map |
 | Raw CCIA grids in open bundle | Violates band-only disclosure principle; licensing complexity |
 | No open standard change | External vendors cannot interchange 2050 screening without LA-specific paths |
