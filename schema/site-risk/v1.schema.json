@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.landscapefederation.org.au/schema/site-risk/v1.schema.json",
+  "title": "TLA-185 — Site risk screening",
+  "description": "Planning-overlay bushfire screening (not statutory BAL certification).",
+  "type": "object",
+  "properties": {
+    "bushfireProneLand": { "type": "boolean" },
+    "balScreeningBand": {
+      "type": "string",
+      "enum": ["not_identified", "potential", "bal-low", "bal-12-5", "bal-19", "bal-29", "bal-40", "bal-fz"]
+    },
+    "matchedOverlayRefs": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

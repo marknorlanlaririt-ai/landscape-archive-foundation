@@ -12,8 +12,9 @@ Governance is **shared for the public standard only**. No member, partner, or co
 
 | Matter | Who decides | How | Notes |
 |--------|-------------|-----|-------|
-| TLA-169 field dictionary (minor / 1.x) | Foundation Council | RFC → working group → simple majority | Published semver on GitHub + schema portal |
-| TLA-169 breaking changes (major / 2.0) | Foundation Council | RFC → **two-thirds** super-majority | Charter amendment uses same bar |
+| TLA-185 field dictionary (minor / new modules) | Foundation Council | RFC → working group → simple majority | Published semver on GitHub + schema portal |
+| TLA-169 field dictionary (minor / 1.x) | Foundation Council | RFC → working group → simple majority | Supported base standard |
+| TLA-169 / TLA-185 breaking changes (major) | Foundation Council | RFC → **two-thirds** super-majority | Charter amendment uses same bar |
 | `cultural-context` fields or badge rules | Council **+** First Nations advisory seat | Protocol sign-off **before** adoption | Advisory veto cannot be overridden by majority |
 | Foundation Approved badge criteria | Foundation Council | Same thresholds as schema tier | Validator rules updated in public repo |
 | National advocacy statements | Foundation Council | Simple majority | Must stay within Foundation purpose (§1.2) |

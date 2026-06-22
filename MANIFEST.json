@@ -1,9 +1,27 @@
 {
-  "standardId": "TLA-169",
-  "version": "1.0.0",
+  "packVersion": "1.1.0",
+  "generatedAt": "2026-06-22T06:27:46.629Z",
   "licence": "CC-BY-NC-ND-4.0",
   "steward": "Landscape Archive Foundation (interim stewardship)",
   "commercialLicensing": "https://landscapearchive.com.au/contact?topic=foundation-commercial-licence",
-  "registryJson": "tla169-fields.json",
-  "generatedAt": "2026-06-21T15:11:08.989Z"
+  "standards": [
+    {
+      "standardId": "TLA-185",
+      "version": "1.0.0",
+      "fieldCount": 185,
+      "extends": "TLA-169",
+      "registryJson": "tla185-fields.json",
+      "bundleSchema": "schema/bundle/v1_1.schema.json",
+      "rfc": "rfc/TLA-185-climate-screening-rfc.md",
+      "status": "current"
+    },
+    {
+      "standardId": "TLA-169",
+      "version": "1.0.0",
+      "fieldCount": 169,
+      "registryJson": "tla169-fields.json",
+      "bundleSchema": "schema/bundle/v1.schema.json",
+      "status": "supported"
+    }
+  ]
 }

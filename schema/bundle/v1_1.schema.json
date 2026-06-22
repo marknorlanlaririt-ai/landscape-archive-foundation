@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.landscapefederation.org.au/schema/bundle/v1_1.schema.json",
+  "title": "TLA-185 — Project Bundle",
+  "description": "Validated export container for Foundation Approved project metadata with climate screening extension.",
+  "type": "object",
+  "required": ["@context", "federationSchemaVersion", "standardId", "project"],
+  "properties": {
+    "@context": {
+      "oneOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "object" }
+      ]
+    },
+    "federationSchemaVersion": { "type": "string", "const": "1.1.0" },
+    "standardId": { "type": "string", "const": "TLA-185" },
+    "project": { "$ref": "https://schema.landscapefederation.org.au/schema/project/v1.schema.json" },
+    "botanicalAssets": {
+      "type": "array",
+      "items": { "$ref": "https://schema.landscapefederation.org.au/schema/botanical-asset/v1.schema.json" }
+    },
+    "siteContext": { "$ref": "https://schema.landscapefederation.org.au/schema/site-context/v1.schema.json" },
+    "sustainability": { "$ref": "https://schema.landscapefederation.org.au/schema/sustainability/v1.schema.json" },
+    "culturalContext": { "$ref": "https://schema.landscapefederation.org.au/schema/cultural-context/v1.schema.json" },
+    "climateScreening": { "$ref": "https://schema.landscapefederation.org.au/schema/climate-screening/v1.schema.json" },
+    "siteRisk": { "$ref": "https://schema.landscapefederation.org.au/schema/site-risk/v1.schema.json" }
+  },
+  "additionalProperties": false
+}

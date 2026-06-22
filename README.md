@@ -1,20 +1,40 @@
-# TLA-169 — Landscape Archive Foundation open standard
+# TLA-185 — Landscape Archive Foundation open standard
 
-Public mirror of the TLA-169 field dictionary and JSON Schema modules.
+Public mirror of the **TLA-185** field dictionary (185 fields) and JSON Schema modules.
+**TLA-169** (169 fields) remains supported for existing bundles.
 
 **Licence:** [CC BY-NC-ND 4.0](LICENSE) — non-commercial reference use without modification.
 **Commercial implementation:** [Contact The Landscape Archive Pty Ltd](https://landscapearchive.com.au/contact?topic=foundation-commercial-licence)
 
 | Resource | Path |
 |----------|------|
-| Field dictionary (169 fields) | `tla169-fields.json` |
+| **TLA-185** field dictionary (185 fields) | `tla185-fields.json` |
+| TLA-169 field dictionary (169 fields) | `tla169-fields.json` |
 | JSON Schema modules | `schema/` |
+| TLA-185 RFC | `rfc/TLA-185-climate-screening-rfc.md` |
+| Run-01 crosswalk | `crosswalk/tla185-run01-environment-map.md` |
+| Band mapping reference | `lib/tla185-band-mapping.mjs` |
 | Worked examples | `examples/` |
 | Badge criteria | `BADGE_CRITERIA_v1.md` |
 | Governance | `GOVERNANCE.md` |
 
+**Releases:** [tla-185-v1.0.0](https://github.com/marknorlanlaririt-ai/landscape-archive-foundation/releases/tag/tla-185-v1.0.0) · [tla-169-v1.0.0](https://github.com/marknorlanlaririt-ai/landscape-archive-foundation/releases/tag/tla-169-v1.0.0)
+
 **Live registry:** https://landscapearchive.com.au/foundation/registry
 **Schema portal:** https://la-federation-schema.pages.dev
+
+---
+
+## TLA-185 summary
+
+TLA-185 extends TLA-169 with **16 fields** for:
+
+- Historical SILO scalars (`aridityIndex`, vapour pressure, pan evaporation, DEA land-cover band)
+- **2050 climate projection screening** (`climateScreening.projection.*`)
+- **Site bushfire overlay screening** (`siteRisk.*`)
+- **2050 disclosure bands** on `siteContext.climateBand`
+
+See `rfc/TLA-185-climate-screening-rfc.md` for the full specification.
 
 ---
 
@@ -65,7 +85,8 @@ flowchart LR
 
 | Asset | Licence |
 |-------|---------|
-| TLA-169 field dictionary & JSON Schema modules | CC BY-NC-ND 4.0 |
+| TLA-185 field dictionary & JSON Schema modules | CC BY-NC-ND 4.0 |
+| TLA-169 field dictionary (supported base) | CC BY-NC-ND 4.0 |
 | Foundation documentation | CC BY-NC-ND 4.0 |
 | Reference validator code (`lib/`) | Apache-2.0 (where marked) |
 

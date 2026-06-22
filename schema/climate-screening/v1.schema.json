@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.landscapefederation.org.au/schema/climate-screening/v1.schema.json",
+  "title": "TLA-185 — Climate projection screening",
+  "description": "Regional climate projection screening values (not statutory CCIA products).",
+  "type": "object",
+  "required": ["projection"],
+  "properties": {
+    "projection": {
+      "type": "object",
+      "required": ["scenario", "horizon", "source"],
+      "properties": {
+        "scenario": {
+          "type": "string",
+          "enum": ["SSP1-2.6", "SSP2-4.5", "SSP3-7.0", "SSP5-8.5"]
+        },
+        "horizon": { "type": "string" },
+        "baselinePeriod": { "type": "string" },
+        "rainfallDeltaPct": { "type": "number" },
+        "maxTempDeltaC": { "type": "number" },
+        "heatwaveDaysDelta": { "type": "integer" },
+        "source": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

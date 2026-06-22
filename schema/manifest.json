@@ -2,14 +2,36 @@
   "foundationId": "australian-landscape-architecture-foundation",
   "foundationLabel": "Landscape Archive Foundation",
   "federationId": "australian-landscape-architecture-federation",
-  "schemaVersion": "1.0.0",
-  "published": "2026-05-29",
+  "schemaVersion": "1.1.0",
+  "published": "2026-06-19",
   "license": {
     "publicStandard": "CC-BY-NC-ND-4.0",
     "documentation": "CC-BY-NC-ND-4.0"
   },
   "canonicalBase": "https://schema.landscapefederation.org.au",
   "jsonLdContext": "/context/federation-v1.jsonld",
+  "standards": [
+    {
+      "id": "TLA-185",
+      "label": "TLA-185 — climate screening extension",
+      "version": "1.0.0",
+      "fieldCount": 185,
+      "supersedes": null,
+      "extends": "TLA-169",
+      "bundleSchema": "/schema/bundle/v1_1.schema.json",
+      "fieldDictionary": "tla185-fields.json",
+      "status": "current"
+    },
+    {
+      "id": "TLA-169",
+      "label": "TLA-169 — base metadata standard",
+      "version": "1.0.0",
+      "fieldCount": 169,
+      "bundleSchema": "/schema/bundle/v1.schema.json",
+      "fieldDictionary": "tla169-fields.json",
+      "status": "supported"
+    }
+  ],
   "modules": [
     {
       "id": "project",
@@ -30,7 +52,21 @@
       "version": "1",
       "path": "/schema/site-context/v1.schema.json",
       "label": "Site context",
-      "description": "Soil, climate band, topography, and exposure context for Australian sites."
+      "description": "Soil, climate band, topography, exposure, and TLA-185 2050 disclosure bands."
+    },
+    {
+      "id": "climate-screening",
+      "version": "1",
+      "path": "/schema/climate-screening/v1.schema.json",
+      "label": "Climate screening",
+      "description": "TLA-185 regional climate projection screening (CCIA-aligned deltas)."
+    },
+    {
+      "id": "site-risk",
+      "version": "1",
+      "path": "/schema/site-risk/v1.schema.json",
+      "label": "Site risk",
+      "description": "TLA-185 bushfire overlay screening (planning proxy, not BAL certificate)."
     },
     {
       "id": "sustainability",
@@ -50,15 +86,23 @@
       "id": "bundle",
       "version": "1",
       "path": "/schema/bundle/v1.schema.json",
-      "label": "Project bundle",
-      "description": "Container for a validated project export (all modules)."
+      "label": "Project bundle (TLA-169)",
+      "description": "Container for a validated TLA-169 project export."
+    },
+    {
+      "id": "bundle-v1_1",
+      "version": "1",
+      "path": "/schema/bundle/v1_1.schema.json",
+      "label": "Project bundle (TLA-185)",
+      "description": "Container for a validated TLA-185 project export."
     }
   ],
   "implementations": [
     {
       "name": "The Landscape Archive",
       "role": "founding-implementation-partner",
-      "crosswalk": "/crosswalk/landscape-archive-revit-v1.md",
+      "crosswalk": "/crosswalk/tla185-run01-environment-map.md",
+      "crosswalkLegacy": "/crosswalk/landscape-archive-revit-v1.md",
       "commercialUrl": "https://landscapearchive.com.au"
     }
   ]

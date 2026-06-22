@@ -22,6 +22,14 @@
         "koppenClass": { "type": "string" },
         "rainfallMmBand": { "type": "string" },
         "temperatureBand": { "type": "string" },
+        "rainfall2050TrendBand": {
+          "type": "string",
+          "enum": ["stable", "declining-slight", "declining-moderate", "declining-severe", "increasing-slight", "unknown"]
+        },
+        "heatStress2050Band": {
+          "type": "string",
+          "enum": ["low", "moderate", "elevated", "high", "unknown"]
+        },
         "source": { "type": "string" }
       }
     },
