@@ -1,10 +1,11 @@
 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
 
-Copyright 2026 Landscape Archive Foundation (interim stewardship working group)
+Copyright © 2026 Australian Landscape Archive Foundation
 
-The TLA-169 public field dictionary, schema documentation, and related Foundation
-documentation in this repository (README.md, HOW_IT_WORKS.md, COMMERCIAL_SEPARATION.md,
-GOVERNANCE.md, BADGE_CRITERIA_v1.md, the developer portal copy, and the crosswalk)
+The TLA-169 and TLA-185 public field dictionaries, JSON Schema modules, JSON-LD
+context, schema documentation, and related Foundation documentation in this
+repository (README.md, HOW_IT_WORKS.md, COMMERCIAL_SEPARATION.md, GOVERNANCE.md,
+BADGE_CRITERIA_v1.md, the developer portal copy, crosswalks, and worked examples)
 are licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
 International License.
 
@@ -12,10 +13,11 @@ You are free to:
   - Share — copy and redistribute the material in any medium or format
 
 Under the following terms:
-  - Attribution — You must give appropriate credit, provide a link to the license,
-    and indicate if changes were made.
+  - Attribution — You must give appropriate credit to the Australian Landscape Archive
+    Foundation, provide a link to the license, and indicate if changes were made.
   - NonCommercial — You may not use the material for commercial purposes without a
-    separate licence from The Landscape Archive Pty Ltd.
+    separate licence from The Landscape Archive Pty Ltd (operating subsidiary of
+    The Landscape Vault Pty Ltd).
   - NoDerivatives — If you remix, transform, or build upon the material, you may
     not distribute the modified material.
 
@@ -23,7 +25,7 @@ Full licence text: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
 Commercial implementation licensing: https://landscapearchive.com.au/contact?topic=foundation-commercial-licence
 
-Note: JSON Schema module files under schema/ and the machine-readable field registry
+Note: JSON Schema module files under schema/ and the machine-readable field registries
 are part of the public standard and are licensed under this same CC BY-NC-ND 4.0
 terms unless otherwise marked.
 

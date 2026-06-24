@@ -1,4 +1,4 @@
-# Draft governance — Landscape Archive Foundation
+# Draft governance — Australian Landscape Archive Foundation
 
 _Status: draft for founding member consultation. Not yet incorporated._
 

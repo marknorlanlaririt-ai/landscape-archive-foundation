@@ -1,6 +1,6 @@
 # Foundation Approved badge criteria (v1)
 
-The **Foundation Approved** badge means a project metadata bundle is structurally valid **and** meets the minimum disclosure bar for open interchange under the Landscape Archive Foundation open landscape data standard v1.
+The **Foundation Approved** badge means a project metadata bundle is structurally valid **and** meets the minimum disclosure bar for open interchange under the Australian Landscape Archive Foundation open landscape data standard v1.
 
 This is **not** a quality certification of design, species selection, or cultural authority. It means the file is complete enough for another organisation to read without proprietary Landscape Archive datasets.
 
@@ -38,7 +38,7 @@ npm run federation:validate:bundle -- path/to/project.bundle.json --badge
 - If `botanicalAssets` present: each entry needs `assetId`, `scientificName`
 - If `culturalContext` present: valid `sensitivityClass`; restricted rows need a public pointer (`redactionNotice`, `restrictedPayloadRef`, or `protocolAuthorityRef`)
 
-Full rules: `federation/lib/validate-bundle-v1.mjs` (reference implementation).
+Full rules: `lib/validate-bundle-v1.mjs` (reference implementation).
 
 ## Badge requirements (v1)
 

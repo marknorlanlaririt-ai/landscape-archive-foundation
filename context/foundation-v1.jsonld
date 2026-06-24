@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "alf": "https://schema.landscapefoundation.org.au/vocab#",
+    "dwc": "http://rs.tdwg.org/dwc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "federationSchemaVersion": "alf:federationSchemaVersion",
+    "projectId": "alf:projectId",
+    "nodeId": "alf:nodeId",
+    "botanicalAssets": "alf:botanicalAssets",
+    "siteContext": "alf:siteContext",
+    "sustainability": "alf:sustainability",
+    "culturalContext": "alf:culturalContext",
+    "scientificName": "dwc:scientificName",
+    "taxonID": "dwc:taxonID",
+    "vernacularName": "dwc:vernacularName",
+    "growthForm": "alf:growthForm",
+    "fireResponse": "alf:fireResponse",
+    "sensitivityClass": "alf:sensitivityClass",
+    "connectionToCountrySummary": "alf:connectionToCountrySummary"
+  }
+}

@@ -1,8 +1,9 @@
 {
   "@context": "https://schema.landscapefoundation.org.au/context/foundation-v1.jsonld",
-  "federationSchemaVersion": "1.0.0",
+  "federationSchemaVersion": "1.1.0",
+  "standardId": "185",
   "project": {
-    "federationSchemaVersion": "1.0.0",
+    "federationSchemaVersion": "1.1.0",
     "projectId": "urn:foundation:node:unsw-la-studio:project:2026-coastal-playground",
     "title": "Coastal playground renewal",
     "nodeId": "urn:foundation:node:unsw-la-studio",
@@ -34,23 +35,6 @@
       "fireResponse": "epicormic",
       "quantity": 24,
       "unit": "each"
-    },
-    {
-      "assetId": "plant-002",
-      "taxonID": "5284947",
-      "scientificName": "Banksia integrifolia L.f.",
-      "vernacularName": "Coast banksia",
-      "family": "Proteaceae",
-      "genus": "Banksia",
-      "nativeStatus": "Native",
-      "growthForm": "Broadleaf tree (single stem)",
-      "matureHeight_m": 8,
-      "matureSpread_m": 5,
-      "waterRequirementClass": "low",
-      "fireResponse": "serotinous",
-      "quantity": 6,
-      "unit": "each",
-      "implementationProductRef": "la:asset:coastal-banksia-v1"
     }
   ],
   "siteContext": {
@@ -67,6 +51,22 @@
     },
     "exposure": "coastal",
     "microclimateNotes": "Salt-laden southerly exposure; dune-edge planting zone."
+  },
+  "climateScreening": {
+    "projection": {
+      "scenario": "SSP2-4.5",
+      "horizon": "2050",
+      "baselinePeriod": "1995-2014",
+      "rainfallDeltaPct": -4.2,
+      "maxTempDeltaC": 1.8,
+      "heatwaveDaysDelta": 6,
+      "source": "CCIA-aligned regional screening (Run-01 proxy)"
+    }
+  },
+  "siteRisk": {
+    "bushfireProneLand": true,
+    "balScreeningBand": "bal-12-5",
+    "matchedOverlayRefs": ["NSW planning overlay proxy"]
   },
   "sustainability": {
     "climatePositiveClaim": true,

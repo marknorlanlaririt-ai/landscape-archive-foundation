@@ -1,8 +1,9 @@
 {
+  "$comment": "Copyright © 2026 Australian Landscape Archive Foundation. Licensed under CC BY-NC-ND 4.0.",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schema.landscapefederation.org.au/schema/project/v1.schema.json",
+  "$id": "https://schema.landscapefoundation.org.au/schema/project/v1.schema.json",
   "title": "Open Landscape Data Standard — Project",
-  "description": "Landscape architecture project record for the Landscape Archive Foundation open metadata standard.",
+  "description": "Landscape architecture project record for the Australian Landscape Archive Foundation open metadata standard.",
   "type": "object",
   "required": ["federationSchemaVersion", "projectId", "title", "nodeId", "jurisdiction"],
   "properties": {

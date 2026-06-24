@@ -1,6 +1,7 @@
 {
+  "$comment": "Copyright © 2026 Australian Landscape Archive Foundation. Licensed under CC BY-NC-ND 4.0.",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schema.landscapefederation.org.au/schema/bundle/v1.schema.json",
+  "$id": "https://schema.landscapefoundation.org.au/schema/bundle/v1.schema.json",
   "title": "Open Landscape Data Standard — Project Bundle",
   "description": "Validated export container for Foundation Approved project metadata.",
   "type": "object",
@@ -13,14 +14,14 @@
       ]
     },
     "federationSchemaVersion": { "type": "string", "const": "1.0.0" },
-    "project": { "$ref": "https://schema.landscapefederation.org.au/schema/project/v1.schema.json" },
+    "project": { "$ref": "https://schema.landscapefoundation.org.au/schema/project/v1.schema.json" },
     "botanicalAssets": {
       "type": "array",
-      "items": { "$ref": "https://schema.landscapefederation.org.au/schema/botanical-asset/v1.schema.json" }
+      "items": { "$ref": "https://schema.landscapefoundation.org.au/schema/botanical-asset/v1.schema.json" }
     },
-    "siteContext": { "$ref": "https://schema.landscapefederation.org.au/schema/site-context/v1.schema.json" },
-    "sustainability": { "$ref": "https://schema.landscapefederation.org.au/schema/sustainability/v1.schema.json" },
-    "culturalContext": { "$ref": "https://schema.landscapefederation.org.au/schema/cultural-context/v1.schema.json" }
+    "siteContext": { "$ref": "https://schema.landscapefoundation.org.au/schema/site-context/v1.schema.json" },
+    "sustainability": { "$ref": "https://schema.landscapefoundation.org.au/schema/sustainability/v1.schema.json" },
+    "culturalContext": { "$ref": "https://schema.landscapefoundation.org.au/schema/cultural-context/v1.schema.json" }
   },
   "additionalProperties": false
 }

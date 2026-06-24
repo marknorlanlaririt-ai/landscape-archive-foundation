@@ -1,15 +1,17 @@
 {
-  "foundationId": "australian-landscape-architecture-foundation",
-  "foundationLabel": "Landscape Archive Foundation",
-  "federationId": "australian-landscape-architecture-federation",
+  "$comment": "Copyright © 2026 Australian Landscape Archive Foundation. Licensed under CC BY-NC-ND 4.0.",
+  "foundationId": "australian-landscape-archive-foundation",
+  "foundationLabel": "Australian Landscape Archive Foundation",
+  "copyright": "© 2026 Australian Landscape Archive Foundation",
+  "commercialLicensor": "The Landscape Archive Pty Ltd",
   "schemaVersion": "1.1.0",
   "published": "2026-06-19",
   "license": {
     "publicStandard": "CC-BY-NC-ND-4.0",
     "documentation": "CC-BY-NC-ND-4.0"
   },
-  "canonicalBase": "https://schema.landscapefederation.org.au",
-  "jsonLdContext": "/context/federation-v1.jsonld",
+  "canonicalBase": "https://schema.landscapefoundation.org.au",
+  "jsonLdContext": "/context/foundation-v1.jsonld",
   "standards": [
     {
       "id": "185",

@@ -1,6 +1,7 @@
 {
+  "$comment": "Copyright © 2026 Australian Landscape Archive Foundation. Licensed under CC BY-NC-ND 4.0.",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schema.landscapefederation.org.au/schema/cultural-context/v1.schema.json",
+  "$id": "https://schema.landscapefoundation.org.au/schema/cultural-context/v1.schema.json",
   "title": "Open Landscape Data Standard — Cultural Context",
   "description": "Connection to Country metadata. Restricted fields must not be published in open Foundation registries.",
   "type": "object",

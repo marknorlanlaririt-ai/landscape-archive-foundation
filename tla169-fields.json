@@ -3,12 +3,12 @@
   "standardLabel": "169 — Landscape Archive metadata standard",
   "version": "1.0.0",
   "fieldCount": 169,
-  "generatedAt": "2026-06-22T07:24:07.515Z",
+  "generatedAt": "2026-06-24T16:38:16.245Z",
   "licence": {
     "publicStandard": "CC-BY-NC-ND-4.0",
     "documentation": "CC-BY-NC-ND-4.0"
   },
-  "steward": "Landscape Archive Foundation",
+  "steward": "Australian Landscape Archive Foundation",
   "modules": [
     {
       "id": "taxonomy",

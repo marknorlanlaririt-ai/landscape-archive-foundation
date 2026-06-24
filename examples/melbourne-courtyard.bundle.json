@@ -1,11 +1,11 @@
 {
-  "@context": "https://schema.landscapefederation.org.au/context/federation-v1.jsonld",
+  "@context": "https://schema.landscapefoundation.org.au/context/foundation-v1.jsonld",
   "federationSchemaVersion": "1.0.0",
   "project": {
     "federationSchemaVersion": "1.0.0",
-    "projectId": "urn:federation:node:melbourne-practice:project:2026-courtyard",
+    "projectId": "urn:foundation:node:melbourne-practice:project:2026-courtyard",
     "title": "CBD courtyard native planting",
-    "nodeId": "urn:federation:node:melbourne-practice",
+    "nodeId": "urn:foundation:node:melbourne-practice",
     "nodeType": "private-practice",
     "jurisdiction": {
       "country": "AU",
@@ -55,7 +55,7 @@
   "culturalContext": {
     "sensitivityClass": "restricted",
     "culturalEngagementLevel": "collaborative",
-    "protocolAuthorityRef": "urn:federation:restricted:node:melbourne-practice:cultural-2026-courtyard",
-    "redactionNotice": "Detailed cultural mapping held by publishing node; not indexed in public federation registry."
+    "protocolAuthorityRef": "urn:foundation:restricted:node:melbourne-practice:cultural-2026-courtyard",
+    "redactionNotice": "Detailed cultural mapping held by publishing node; not indexed in public Foundation registry."
   }
 }

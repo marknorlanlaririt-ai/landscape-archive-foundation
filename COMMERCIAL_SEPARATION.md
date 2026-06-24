@@ -13,7 +13,7 @@ The Foundation does not replace your store. It standardises **how project metada
 - Owns: JSON Schema, JSON-LD context, field dictionary, validator, badge criteria
 - Licence: CC BY-NC-ND 4.0 (public standard), Apache-2.0 (reference validator code only)
 - Revenue: none from the schema itself
-- Brand: Landscape Archive Foundation
+- Brand: Australian Landscape Archive Foundation
 
 ### Layer B — Landscape Archive (commercial)
 
@@ -35,7 +35,7 @@ Three entities, three jobs. **Do not move the whole certification programme to t
 | Populated species/trait databases and derived datasets | — |
 | Software & Schema IP Schedule (implementation mappings) | — |
 
-### Landscape Archive Foundation (public standard steward)
+### Australian Landscape Archive Foundation (public standard steward)
 
 | Foundation owns | Notes |
 |-----------------|-------|

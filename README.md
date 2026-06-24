@@ -1,9 +1,10 @@
-# 185 — Landscape Archive Foundation open standard
+# 185 — Australian Landscape Archive Foundation open standard
 
 Public mirror of the **185** field dictionary and JSON Schema modules.
 **169** (169 fields) remains supported for existing bundles.
 
-**Licence:** [CC BY-NC-ND 4.0](LICENSE) — non-commercial reference use without modification.
+**Copyright:** © 2026 Australian Landscape Archive Foundation  
+**Licence:** [CC BY-NC-ND 4.0](LICENSE) — non-commercial reference use without modification.  
 **Commercial implementation:** [Contact The Landscape Archive Pty Ltd](https://landscapearchive.com.au/contact?topic=foundation-commercial-licence)
 
 | Resource | Path |
@@ -20,8 +21,8 @@ Public mirror of the **185** field dictionary and JSON Schema modules.
 
 **Releases:** [185-v1.0.0](https://github.com/marknorlanlaririt-ai/landscape-archive-foundation/releases/tag/185-v1.0.0) · [169-v1.0.0](https://github.com/marknorlanlaririt-ai/landscape-archive-foundation/releases/tag/169-v1.0.0)
 
-**Live registry:** https://landscapearchive.com.au/foundation/registry
-**Schema portal:** https://la-federation-schema.pages.dev
+**Live registry:** https://landscapearchive.com.au/foundation/registry  
+**Schema portal:** https://schema.landscapefoundation.org.au
 
 ---
 
@@ -38,12 +39,12 @@ See `rfc/TLA-185-climate-screening-rfc.md` for the full specification.
 
 ---
 
-Public, open metadata standard for Australian landscape architecture projects — stewarded by the **Landscape Archive Foundation** for use by practices, academia, councils, and environmental bodies.
+Public, open metadata standard for Australian landscape architecture projects — stewarded by the **Australian Landscape Archive Foundation** for use by practices, academia, councils, and environmental bodies.
 
 > **Status:** early-stage, draft v1. The Foundation is **not yet an incorporated body or registered entity**, and **is not affiliated with, endorsed by, or representative of** any professional institute, association, or government body.
 
-**Canonical URL (interim):** https://la-federation-schema.pages.dev  
-**Target URL:** https://schema.landscapefoundation.org.au (when registered)
+**Canonical URL:** https://schema.landscapefoundation.org.au  
+**Interim portal:** https://la-federation-schema.pages.dev (Cloudflare Pages)
 
 ## How it works
 
@@ -90,7 +91,9 @@ flowchart LR
 | Foundation documentation | CC BY-NC-ND 4.0 |
 | Reference validator code (`lib/`) | Apache-2.0 (where marked) |
 
-v1 JSON property names (e.g. `federationSchemaVersion`) retain a legacy prefix for compatibility; governance and public docs use Foundation naming.
+## Copyright
+
+© 2026 Australian Landscape Archive Foundation. See [LICENSE.md](./LICENSE.md).
 
 ## Can Landscape Archive still sell plants?
 

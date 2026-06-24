@@ -1,6 +1,6 @@
 # Landscape Archive ↔ Open landscape data standard crosswalk (Revit v1)
 
-This document maps **The Landscape Archive** Revit `sourceData` sections to the **Landscape Archive Foundation** open metadata modules (v1).
+This document maps **The Landscape Archive** Revit `sourceData` sections to the **Australian Landscape Archive Foundation** open metadata modules (v1).
 
 The open standard is **tool-agnostic and open**. Landscape Archive is a **commercial implementation** that can read/write standard-conformant bundles and sell premium assets (Revit families, Library subscriptions, shop packs) on top.
 

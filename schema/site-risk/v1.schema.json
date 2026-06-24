@@ -1,6 +1,7 @@
 {
+  "$comment": "Copyright © 2026 Australian Landscape Archive Foundation. Licensed under CC BY-NC-ND 4.0.",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schema.landscapefederation.org.au/schema/site-risk/v1.schema.json",
+  "$id": "https://schema.landscapefoundation.org.au/schema/site-risk/v1.schema.json",
   "title": "185 — Site risk screening",
   "description": "Planning-overlay bushfire screening (not statutory BAL certification).",
   "type": "object",

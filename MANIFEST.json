@@ -1,8 +1,10 @@
 {
   "packVersion": "1.1.0",
-  "generatedAt": "2026-06-22T07:24:07.767Z",
+  "generatedAt": "2026-06-24T16:38:16.541Z",
   "licence": "CC-BY-NC-ND-4.0",
-  "steward": "Landscape Archive Foundation (interim stewardship)",
+  "steward": "Australian Landscape Archive Foundation",
+  "copyright": "© 2026 Australian Landscape Archive Foundation",
+  "commercialLicensor": "The Landscape Archive Pty Ltd",
   "commercialLicensing": "https://landscapearchive.com.au/contact?topic=foundation-commercial-licence",
   "standards": [
     {

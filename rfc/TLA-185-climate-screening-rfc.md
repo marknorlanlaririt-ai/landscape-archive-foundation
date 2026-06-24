@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Status** | Published (`185-v1.0.0` on GitHub; Council review ongoing) |
-| **Author** | Landscape Archive Foundation working group |
+| **Author** | Australian Landscape Archive Foundation working group |
 | **Date** | 2026-06-19 |
 | **Supersedes** | 169 v1.0.0 (additive — 169 remains valid) |
 | **Target release** | 185 v1.0.0 |
@@ -35,7 +35,7 @@ The Archive commercial pipeline (`Run-01 environmentContext`) already stores the
 | No site-risk fields | `environmentContext.siteRisk.bushfire` overlay screening |
 | `siteContext.climateBand` is historical only | Compliance UI needs **2050 trend bands** for open disclosure |
 
-Prior guidance (`federation/COMMERCIAL_SEPARATION.md`) correctly keeps raw joins in Layer B (Archive). 185 draws the **open naming line** for screening values and band derivations that third parties can interchange without LA entitlements.
+Prior guidance (`COMMERCIAL_SEPARATION.md`) correctly keeps raw joins in Layer B (Archive). 185 draws the **open naming line** for screening values and band derivations that third parties can interchange without LA entitlements.
 
 ---
 
@@ -46,7 +46,7 @@ Prior guidance (`federation/COMMERCIAL_SEPARATION.md`) correctly keeps raw joins
 - 16 new field definitions in the public dictionary
 - Band derivation rules (2050 rainfall trend, heat stress)
 - Run-01 → 185 mapping reference (`scripts/foundation/tla185-band-mapping.mjs`)
-- Crosswalk update (`federation/crosswalk/tla185-run01-environment-map.md`)
+- Crosswalk update (`crosswalk/tla185-run01-environment-map.md`)
 - Optional Foundation Approved **v2 badge tier** (future) requiring 2050 bands when `climateScreening` is present
 
 ### Out of scope
@@ -179,7 +179,7 @@ Implemented in `scripts/foundation/tla185-band-mapping.mjs`:
 | `siteRisk.bushfire.*` | `siteRisk.*` |
 | derived bands | `siteContext.climateBand.rainfall2050TrendBand`, `heatStress2050Band` |
 
-Full table: `federation/crosswalk/tla185-run01-environment-map.md`.
+Full table: `crosswalk/tla185-run01-environment-map.md`.
 
 ---
 
@@ -199,7 +199,7 @@ Export tools SHOULD emit `standardId: "185"` when projection or site-risk module
 
 ## Governance
 
-Per `federation/GOVERNANCE.md`:
+Per `GOVERNANCE.md`:
 
 - 185 is a **new standard ID** (not a silent edit to 169)
 - Council approval: **simple majority** RFC (additive extension release)
@@ -236,5 +236,5 @@ Per `federation/GOVERNANCE.md`:
 - `functions/_lib/siteRiskCore.js` — CCIA screening + bushfire lookup
 - `src/data-ingest/run-01/run-01-extract.mjs` — `buildEnvironmentRecord`
 - `docs/AASB_S2_CLIMATE_EVIDENCE_API_SPEC.md`
-- `federation/BADGE_CRITERIA_v1.md`
-- `federation/COMMERCIAL_SEPARATION.md`
+- `BADGE_CRITERIA_v1.md`
+- `COMMERCIAL_SEPARATION.md`

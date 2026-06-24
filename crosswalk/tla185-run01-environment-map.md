@@ -5,7 +5,7 @@ Maps **Landscape Archive commercial** Run-01 joins to **Foundation open** TLA-18
 | Layer | Owner | Licence |
 |-------|-------|---------|
 | Run-01 sidecars (`species-environment-context.json`, library `environmentContext`) | The Landscape Archive Pty Ltd | EULA / dataset terms |
-| TLA-185 field dictionary | Landscape Archive Foundation | CC BY-NC-ND 4.0 |
+| TLA-185 field dictionary | Australian Landscape Archive Foundation | CC BY-NC-ND 4.0 |
 
 This document is a **crosswalk** only. It does not grant access to Archive datasets.
 
